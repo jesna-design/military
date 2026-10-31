@@ -1,0 +1,669 @@
+post_id,timestamp,author,country,state,platform,lang,label,sentiment,narrative,misinfo_score,misinfo_flag,coordinated,followers,shares,text
+0,2026-10-25 00:07:00,user_57,China,,X,hi,positive,1.0,4,0.1,False,False,4379,0,"हमारे सैनिकों पर गर्व है, सलाम"
+1,2026-10-25 00:18:00,user_280,India,Telangana,X,en,neutral,0.0,3,0.15,False,False,976,0,Army conducts routine exercise near the northern sector today
+2,2026-10-25 00:39:00,user_87,Pakistan,,X,en,positive,1.0,0,0.15,False,False,1403,0,"Our army is a hero, safe borders thanks to them"
+3,2026-10-25 00:42:00,user_9,Pakistan,,X,hi,neutral,0.0,0,0.1,False,False,1961,0,सेना का अभ्यास आज सामान्य रूप से जारी
+4,2026-10-25 00:45:00,user_74,Pakistan,,X,ur/ar,neutral,0.0,2,0.1,False,False,2242,0,فوجی مشق معمول کے مطابق جاری
+5,2026-10-25 00:52:00,user_134,India,Telangana,X,en,neutral,0.0,3,0.14,False,False,1052,0,Army conducts routine exercise near the coastal sector today #IndiaArmy
+6,2026-10-25 01:01:00,user_250,India,West Bengal,X,hi,positive,1.0,4,0.1,False,False,61,0,"हमारे सैनिकों पर गर्व है, सलाम #Defence"
+7,2026-10-25 01:28:00,user_76,Other,,X,ur/ar,neutral,0.0,2,0.1,False,False,3993,0,فوجی مشق معمول کے مطابق جاری
+8,2026-10-25 01:33:00,user_308,India,Telangana,X,ur/ar,neutral,0.0,2,0.1,False,False,4676,0,فوجی مشق معمول کے مطابق جاری
+9,2026-10-25 02:03:00,user_183,India,Delhi,X,en,negative,-1.0,3,0.1,False,False,3279,0,"Terror attack condemned, fear in the region"
+10,2026-10-25 02:06:00,user_194,India,Telangana,X,en,neutral,0.0,6,0.1,False,False,409,0,Defence ministry briefing scheduled this afternoon #Border
+11,2026-10-25 02:39:00,user_192,India,,X,en,neutral,0.0,6,0.1,False,False,2223,0,Defence ministry briefing scheduled this afternoon
+12,2026-10-25 02:44:00,user_256,India,West Bengal,X,en,positive,1.0,0,0.1,False,False,2033,0,"Great success for the forces, strong response and peace restored #IndiaArmy"
+13,2026-10-25 02:50:00,user_143,India,Tamil Nadu,X,en,positive,1.0,0,0.1,False,False,2200,0,"Great success for the forces, strong response and peace restored"
+14,2026-10-25 02:58:00,user_190,Pakistan,,X,ur/ar,neutral,0.0,2,0.1,False,False,4319,0,فوجی مشق معمول کے مطابق جاری #Defence
+15,2026-10-25 03:03:00,user_60,China,,X,en,neutral,0.0,6,0.1,False,False,4257,0,Parliament committee discusses defence budget allocation #Security
+16,2026-10-25 03:04:00,user_45,China,,X,en,negative,-1.0,0,0.1,False,False,3465,0,"Shameful failure of intelligence, war like situation"
+17,2026-10-25 03:32:00,user_102,Unknown,,X,en,positive,1.0,3,0.17,False,False,417,0,"Proud of our soldiers, salute to the brave jawans"
+18,2026-10-25 03:43:00,user_188,India,West Bengal,X,ur/ar,positive,1.0,1,0.1,False,False,3873,0,امن مذاکرات کامیاب ہونے کی امید
+19,2026-10-25 03:45:00,user_173,Pakistan,,X,en,neutral,0.0,3,0.1,False,False,2646,0,Weather delays flights near the border region
+20,2026-10-25 03:59:00,user_107,Pakistan,,X,en,neutral,0.0,0,0.1,False,False,14,0,"Joint military drill begins, officials say it is routine"
+21,2026-10-25 04:06:00,user_296,India,West Bengal,X,ur/ar,positive,1.0,1,0.1,False,False,449,0,امن مذاکرات کامیاب ہونے کی امید
+22,2026-10-25 04:21:00,user_41,India,Karnataka,X,hi,positive,1.0,0,0.1,False,False,1039,0,शांति और सफल वार्ता की उम्मीद #IndiaArmy
+23,2026-10-25 04:53:00,user_148,Other,,X,en,neutral,0.0,3,0.1,False,False,378,0,Weather delays flights near the border region
+24,2026-10-25 04:53:00,user_46,Pakistan,,X,en,negative,-1.0,0,0.16,False,False,1020,0,"Ceasefire violation again, civilians scared and killed"
+25,2026-10-25 05:05:00,user_217,China,,X,ur/ar,positive,1.0,1,0.1,False,False,408,0,امن مذاکرات کامیاب ہونے کی امید #IndiaArmy
+26,2026-10-25 05:12:00,user_221,Other,,X,hi,neutral,0.0,0,0.1,False,False,560,0,सेना का अभ्यास आज सामान्य रूप से जारी
+27,2026-10-25 05:28:00,user_4,Pakistan,,X,en,positive,1.0,3,0.17,False,False,3955,0,"Proud of our soldiers, salute to the brave jawans"
+28,2026-10-25 05:34:00,user_74,Pakistan,,X,hi,positive,1.0,0,0.1,False,False,270,0,शांति और सफल वार्ता की उम्मीद
+29,2026-10-25 05:42:00,user_273,India,Karnataka,X,en,negative,-1.0,0,0.15,False,False,705,0,"Attack on convoy leaves several killed, people angry"
+30,2026-10-25 05:56:00,user_131,Unknown,,X,en,positive,1.0,0,0.15,False,False,4222,0,"Our army is a hero, safe borders thanks to them #Border"
+31,2026-10-25 06:04:00,user_279,India,,X,en,neutral,0.0,3,0.15,False,False,4113,0,Army conducts routine exercise near the coastal sector today #Defence
+32,2026-10-25 06:21:00,user_16,Other,,X,en,neutral,0.0,6,0.1,False,False,4014,0,Defence ministry briefing scheduled this afternoon #Defence
+33,2026-10-25 06:25:00,user_155,India,Delhi,X,en,neutral,0.0,3,0.1,False,False,2587,0,Weather delays flights near the border region
+34,2026-10-25 06:33:00,user_110,Pakistan,,X,ur/ar,positive,1.0,1,0.1,False,False,1286,0,امن مذاکرات کامیاب ہونے کی امید
+35,2026-10-25 06:42:00,user_221,India,Telangana,X,en,neutral,0.0,6,0.1,False,False,2577,0,Defence ministry briefing scheduled this afternoon #Security
+36,2026-10-25 06:44:00,user_174,India,,X,en,neutral,0.0,3,0.1,False,False,587,0,Weather delays flights near the border region
+37,2026-10-25 07:03:00,user_88,India,Tamil Nadu,X,ur/ar,neutral,0.0,2,0.1,False,False,2877,0,فوجی مشق معمول کے مطابق جاری
+38,2026-10-25 07:04:00,user_85,India,,X,en,positive,1.0,0,0.15,False,False,3160,0,"Our army is a hero, safe borders thanks to them"
+39,2026-10-25 07:27:00,user_8,India,Tamil Nadu,X,en,neutral,0.0,3,0.1,False,False,3191,0,Weather delays flights near the border region
+40,2026-10-25 07:28:00,user_295,India,West Bengal,X,ur/ar,positive,1.0,1,0.1,False,False,4805,0,امن مذاکرات کامیاب ہونے کی امید
+41,2026-10-25 07:33:00,user_69,India,Telangana,X,en,positive,1.0,0,0.1,False,False,2491,0,"Positive talks, peace process moves forward #Defence"
+42,2026-10-25 07:53:00,user_22,Unknown,,X,hi,positive,1.0,0,0.1,False,False,2955,0,शांति और सफल वार्ता की उम्मीद #Security
+43,2026-10-25 07:57:00,user_241,India,Karnataka,X,en,neutral,0.0,3,0.1,False,False,2170,0,Weather delays flights near the border region
+44,2026-10-25 08:12:00,user_90,Unknown,,X,ur/ar,neutral,0.0,2,0.1,False,False,1565,0,فوجی مشق معمول کے مطابق جاری #Defence
+45,2026-10-25 08:41:00,user_29,India,Karnataka,X,ur/ar,positive,1.0,1,0.1,False,False,2693,0,امن مذاکرات کامیاب ہونے کی امید
+46,2026-10-25 08:43:00,user_253,India,Karnataka,X,en,negative,-1.0,3,0.1,False,False,3511,0,"Terror attack condemned, fear in the region"
+47,2026-10-25 08:46:00,user_209,Unknown,,X,ur/ar,negative,-1.0,5,0.1,False,False,1013,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+48,2026-10-25 08:53:00,user_206,India,Telangana,X,en,neutral,0.0,3,0.15,False,False,1045,0,Army conducts routine exercise near the western sector today
+49,2026-10-25 08:55:00,user_221,India,West Bengal,X,en,neutral,0.0,3,0.1,False,False,4550,0,Weather delays flights near the border region
+50,2026-10-25 09:18:00,user_257,Pakistan,,X,en,neutral,0.0,0,0.1,False,False,28,0,"Joint military drill begins, officials say it is routine"
+51,2026-10-25 09:21:00,user_49,Pakistan,,X,ur/ar,neutral,0.0,2,0.1,False,False,3114,0,فوجی مشق معمول کے مطابق جاری
+52,2026-10-25 09:24:00,user_231,India,Delhi,X,en,negative,-1.0,3,0.1,False,False,654,0,"Terror attack condemned, fear in the region #Border"
+53,2026-10-25 09:42:00,user_236,India,,X,en,positive,1.0,3,0.17,False,False,4642,0,"Proud of our soldiers, salute to the brave jawans"
+54,2026-10-25 09:45:00,user_269,Pakistan,,X,en,positive,1.0,0,0.1,False,False,1462,0,"Positive talks, peace process moves forward #Defence"
+55,2026-10-25 09:53:00,user_114,India,West Bengal,X,en,negative,-1.0,0,0.1,False,False,351,0,"Shameful failure of intelligence, war like situation"
+56,2026-10-25 10:14:00,user_58,China,,X,en,positive,1.0,3,0.17,False,False,3057,0,"Proud of our soldiers, salute to the brave jawans"
+57,2026-10-25 10:21:00,user_193,India,Tamil Nadu,X,en,positive,1.0,0,0.15,False,False,3775,0,"Our army is a hero, safe borders thanks to them"
+58,2026-10-25 10:37:00,user_83,Other,,X,en,negative,-1.0,3,0.1,False,False,4951,0,"Terror attack condemned, fear in the region"
+59,2026-10-25 10:38:00,user_273,India,Karnataka,X,ur/ar,positive,1.0,1,0.1,False,False,4434,0,امن مذاکرات کامیاب ہونے کی امید
+60,2026-10-25 11:15:00,user_250,Other,,X,ur/ar,negative,-1.0,5,0.1,False,False,3115,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+61,2026-10-25 11:20:00,user_163,India,Tamil Nadu,X,en,neutral,0.0,6,0.1,False,False,355,0,Defence ministry briefing scheduled this afternoon
+62,2026-10-25 11:27:00,user_175,India,Karnataka,X,en,negative,-1.0,3,0.1,False,False,3535,0,"Terror attack condemned, fear in the region #Security"
+63,2026-10-25 11:32:00,user_24,Pakistan,,X,en,neutral,0.0,0,0.1,False,False,434,0,"Joint military drill begins, officials say it is routine"
+64,2026-10-25 11:34:00,user_251,India,Karnataka,X,en,neutral,0.0,3,0.15,False,False,3050,0,Army conducts routine exercise near the coastal sector today
+65,2026-10-25 11:45:00,user_179,India,Telangana,X,hi,neutral,0.0,0,0.1,False,False,4064,0,सेना का अभ्यास आज सामान्य रूप से जारी #IndiaArmy
+66,2026-10-25 11:50:00,user_224,Pakistan,,X,hi,negative,-1.0,4,0.1,False,False,2580,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा"
+67,2026-10-25 11:50:00,user_319,Pakistan,,X,en,positive,1.0,3,0.17,False,False,3444,0,"Proud of our soldiers, salute to the brave jawans"
+68,2026-10-25 11:51:00,user_42,India,Telangana,X,hi,positive,1.0,4,0.1,False,False,3426,0,"हमारे सैनिकों पर गर्व है, सलाम"
+69,2026-10-25 11:57:00,user_184,India,Karnataka,X,ur/ar,neutral,0.0,2,0.1,False,False,3775,0,فوجی مشق معمول کے مطابق جاری
+70,2026-10-25 11:58:00,user_268,India,Telangana,X,en,negative,-1.0,0,0.15,False,False,146,0,"Attack on convoy leaves several killed, people angry"
+71,2026-10-25 12:09:00,user_233,China,,X,ur/ar,neutral,0.0,2,0.1,False,False,2007,0,فوجی مشق معمول کے مطابق جاری
+72,2026-10-25 12:35:00,user_265,Pakistan,,X,hi,neutral,0.0,0,0.1,False,False,1791,0,सेना का अभ्यास आज सामान्य रूप से जारी
+73,2026-10-25 12:49:00,user_65,Other,,X,en,neutral,0.0,3,0.15,False,False,4389,0,Army conducts routine exercise near the western sector today
+74,2026-10-25 12:49:00,user_272,India,,X,ur/ar,neutral,0.0,2,0.1,False,False,2212,0,فوجی مشق معمول کے مطابق جاری #Defence
+75,2026-10-25 12:49:00,user_208,India,Tamil Nadu,X,en,negative,-1.0,0,0.14,False,False,4832,0,"Attack on convoy leaves several killed, people angry #IndiaArmy"
+76,2026-10-25 12:50:00,user_155,India,Telangana,X,en,neutral,0.0,3,0.15,False,False,586,0,Army conducts routine exercise near the northern sector today
+77,2026-10-25 13:14:00,user_166,Other,,X,en,negative,-1.0,3,0.1,False,False,3480,0,"Terror attack condemned, fear in the region"
+78,2026-10-25 13:19:00,user_293,Unknown,,X,ur/ar,neutral,0.0,2,0.1,False,False,1838,0,فوجی مشق معمول کے مطابق جاری #IndiaArmy
+79,2026-10-25 13:26:00,user_273,Pakistan,,X,ur/ar,negative,-1.0,5,0.1,False,False,3488,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+80,2026-10-25 13:29:00,user_142,Unknown,,X,en,neutral,0.0,3,0.1,False,False,1067,0,Weather delays flights near the border region
+81,2026-10-25 13:38:00,user_134,Pakistan,,X,hi,positive,1.0,0,0.1,False,False,230,0,शांति और सफल वार्ता की उम्मीद
+82,2026-10-25 13:45:00,user_223,Pakistan,,X,en,neutral,0.0,0,0.1,False,False,2667,0,"Joint military drill begins, officials say it is routine"
+83,2026-10-25 13:47:00,user_114,India,Telangana,X,en,neutral,0.0,0,0.1,False,False,3065,0,"Joint military drill begins, officials say it is routine #Security"
+84,2026-10-25 13:58:00,user_277,India,Telangana,X,en,neutral,0.0,0,0.1,False,False,4579,0,"Joint military drill begins, officials say it is routine"
+85,2026-10-25 14:19:00,user_286,India,Delhi,X,en,neutral,0.0,6,0.1,False,False,2147,0,Defence ministry briefing scheduled this afternoon
+86,2026-10-25 14:21:00,user_111,Unknown,,X,en,neutral,0.0,6,0.1,False,False,994,0,Defence ministry briefing scheduled this afternoon
+87,2026-10-25 14:29:00,user_266,Other,,X,en,negative,-1.0,0,0.1,False,False,3802,0,"Shameful failure of intelligence, war like situation"
+88,2026-10-25 14:29:00,user_30,China,,X,en,negative,-1.0,3,0.1,False,False,1008,0,"Terror attack condemned, fear in the region #Border"
+89,2026-10-25 14:31:00,user_82,Other,,X,en,positive,1.0,0,0.15,False,False,4343,0,"Our army is a hero, safe borders thanks to them #Defence"
+90,2026-10-25 14:32:00,user_91,India,Telangana,X,hi,neutral,0.0,0,0.1,False,False,3083,0,सेना का अभ्यास आज सामान्य रूप से जारी #IndiaArmy
+91,2026-10-25 14:42:00,user_115,India,Tamil Nadu,X,en,neutral,0.0,6,0.1,False,False,889,0,Parliament committee discusses defence budget allocation #IndiaArmy
+92,2026-10-25 14:45:00,user_161,India,Tamil Nadu,X,en,negative,-1.0,0,0.16,False,False,2608,0,"Ceasefire violation again, civilians scared and killed"
+93,2026-10-25 14:51:00,user_248,India,Delhi,X,hi,positive,1.0,4,0.1,False,False,4619,0,"हमारे सैनिकों पर गर्व है, सलाम #IndiaArmy"
+94,2026-10-25 14:59:00,user_172,India,Delhi,X,en,negative,-1.0,0,0.16,False,False,4357,0,"Ceasefire violation again, civilians scared and killed #Defence"
+95,2026-10-25 15:00:00,user_315,India,West Bengal,X,en,negative,-1.0,0,0.16,False,False,844,0,"Ceasefire violation again, civilians scared and killed"
+96,2026-10-25 15:12:00,user_96,Other,,X,en,positive,1.0,0,0.15,False,False,4814,0,"Our army is a hero, safe borders thanks to them"
+97,2026-10-25 15:20:00,user_302,India,West Bengal,X,ur/ar,positive,1.0,1,0.1,False,False,40,0,امن مذاکرات کامیاب ہونے کی امید #IndiaArmy
+98,2026-10-25 15:24:00,user_111,India,Delhi,X,en,neutral,0.0,6,0.1,False,False,3879,0,Defence ministry briefing scheduled this afternoon
+99,2026-10-25 15:34:00,user_78,Pakistan,,X,en,neutral,0.0,0,0.1,False,False,1175,0,"Joint military drill begins, officials say it is routine #IndiaArmy"
+100,2026-10-25 15:35:00,user_164,India,Delhi,X,en,negative,-1.0,0,0.14,False,False,1933,0,"Attack on convoy leaves several killed, people angry #Security"
+101,2026-10-25 15:41:00,user_305,India,Karnataka,X,hi,positive,1.0,0,0.1,False,False,3184,0,शांति और सफल वार्ता की उम्मीद #Security
+102,2026-10-25 15:43:00,user_44,Pakistan,,X,en,positive,1.0,0,0.1,False,False,363,0,"Great success for the forces, strong response and peace restored"
+103,2026-10-25 15:44:00,user_111,India,,X,hi,neutral,0.0,0,0.1,False,False,4318,0,सेना का अभ्यास आज सामान्य रूप से जारी
+104,2026-10-25 15:48:00,user_288,India,Tamil Nadu,X,hi,positive,1.0,4,0.1,False,False,752,0,"हमारे सैनिकों पर गर्व है, सलाम #Defence"
+105,2026-10-25 16:04:00,user_35,India,Karnataka,X,ur/ar,positive,1.0,1,0.1,False,False,4622,0,امن مذاکرات کامیاب ہونے کی امید #Border
+106,2026-10-25 16:05:00,user_173,India,Karnataka,X,en,neutral,0.0,0,0.1,False,False,813,0,"Joint military drill begins, officials say it is routine"
+107,2026-10-25 16:51:00,user_264,India,Delhi,X,ur/ar,negative,-1.0,5,0.1,False,False,3078,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+108,2026-10-25 16:59:00,user_256,India,,X,ur/ar,negative,-1.0,5,0.1,False,False,1467,0,سرحد پر حملہ، لوگ خوفزدہ ہیں #Border
+109,2026-10-25 17:14:00,user_4,India,Telangana,X,en,neutral,0.0,6,0.1,False,False,192,0,Parliament committee discusses defence budget allocation
+110,2026-10-25 17:20:00,user_180,India,Telangana,X,en,neutral,0.0,6,0.1,False,False,2797,0,Defence ministry briefing scheduled this afternoon
+111,2026-10-25 17:35:00,user_180,India,,X,en,negative,-1.0,0,0.14,False,False,993,0,"Attack on convoy leaves several killed, people angry #IndiaArmy"
+112,2026-10-25 17:39:00,user_310,India,Karnataka,X,en,neutral,0.0,6,0.1,False,False,208,0,Defence ministry briefing scheduled this afternoon #Security
+113,2026-10-25 17:39:00,user_282,Unknown,,X,en,neutral,0.0,3,0.1,False,False,942,0,Weather delays flights near the border region #Defence
+114,2026-10-25 17:41:00,user_77,India,Telangana,X,ur/ar,positive,1.0,1,0.1,False,False,3947,0,امن مذاکرات کامیاب ہونے کی امید #Defence
+115,2026-10-25 17:41:00,user_168,Pakistan,,X,ur/ar,positive,1.0,1,0.1,False,False,2330,0,امن مذاکرات کامیاب ہونے کی امید #Defence
+116,2026-10-25 18:17:00,user_187,Pakistan,,X,en,neutral,0.0,0,0.1,False,False,4743,0,"Joint military drill begins, officials say it is routine"
+117,2026-10-25 18:38:00,user_228,India,Tamil Nadu,X,en,neutral,0.0,6,0.1,False,False,2452,0,Defence ministry briefing scheduled this afternoon
+118,2026-10-25 18:38:00,user_14,Pakistan,,X,ur/ar,neutral,0.0,2,0.1,False,False,727,0,فوجی مشق معمول کے مطابق جاری #IndiaArmy
+119,2026-10-25 18:39:00,user_243,China,,X,ur/ar,positive,1.0,1,0.1,False,False,297,0,امن مذاکرات کامیاب ہونے کی امید #Border
+120,2026-10-25 19:10:00,user_151,India,,X,en,neutral,0.0,3,0.15,False,False,4617,0,Army conducts routine exercise near the western sector today
+121,2026-10-25 19:20:00,user_291,India,Tamil Nadu,X,en,negative,-1.0,3,0.1,False,False,4188,0,"Terror attack condemned, fear in the region"
+122,2026-10-25 19:23:00,user_123,India,,X,hi,positive,1.0,4,0.1,False,False,4333,0,"हमारे सैनिकों पर गर्व है, सलाम"
+123,2026-10-25 19:24:00,user_126,India,Delhi,X,en,positive,1.0,0,0.15,False,False,1952,0,"Our army is a hero, safe borders thanks to them"
+124,2026-10-25 19:41:00,user_191,India,Delhi,X,hi,neutral,0.0,0,0.1,False,False,874,0,सेना का अभ्यास आज सामान्य रूप से जारी #Border
+125,2026-10-25 19:50:00,user_240,India,Telangana,X,hi,negative,-1.0,4,0.1,False,False,4542,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा #Defence"
+126,2026-10-25 19:58:00,user_320,Pakistan,,X,en,positive,1.0,0,0.1,False,False,818,0,"Great success for the forces, strong response and peace restored"
+127,2026-10-25 20:27:00,user_196,India,,X,en,neutral,0.0,6,0.1,False,False,4532,0,Defence ministry briefing scheduled this afternoon
+128,2026-10-25 20:37:00,user_226,China,,X,ur/ar,neutral,0.0,2,0.1,False,False,500,0,فوجی مشق معمول کے مطابق جاری #Defence
+129,2026-10-25 20:56:00,user_159,India,Karnataka,X,ur/ar,positive,1.0,1,0.1,False,False,4506,0,امن مذاکرات کامیاب ہونے کی امید
+130,2026-10-25 21:00:00,user_94,India,Tamil Nadu,X,en,negative,-1.0,0,0.1,False,False,2656,0,"Shameful failure of intelligence, war like situation"
+131,2026-10-25 21:02:00,user_128,India,Telangana,X,en,neutral,0.0,6,0.1,False,False,4620,0,Defence ministry briefing scheduled this afternoon
+132,2026-10-25 21:05:00,user_113,India,Tamil Nadu,X,ur/ar,positive,1.0,1,0.1,False,False,1478,0,امن مذاکرات کامیاب ہونے کی امید
+133,2026-10-25 21:19:00,user_267,Pakistan,,X,en,positive,1.0,0,0.1,False,False,633,0,"Great success for the forces, strong response and peace restored"
+134,2026-10-25 21:21:00,user_20,Unknown,,X,en,positive,1.0,0,0.1,False,False,1983,0,"Great success for the forces, strong response and peace restored"
+135,2026-10-25 21:32:00,user_28,India,,X,en,neutral,0.0,6,0.1,False,False,1472,0,Defence ministry briefing scheduled this afternoon #Border
+136,2026-10-25 21:33:00,user_85,Pakistan,,X,en,negative,-1.0,0,0.1,False,False,2047,0,"Shameful failure of intelligence, war like situation #Defence"
+137,2026-10-25 21:36:00,user_137,Pakistan,,X,en,positive,1.0,3,0.17,False,False,3720,0,"Proud of our soldiers, salute to the brave jawans"
+138,2026-10-25 21:52:00,user_17,Pakistan,,X,en,negative,-1.0,0,0.14,False,False,3225,0,"Attack on convoy leaves several killed, people angry #Security"
+139,2026-10-25 22:00:00,user_228,Pakistan,,X,en,positive,1.0,0,0.1,False,False,2071,0,"Positive talks, peace process moves forward #Border"
+140,2026-10-25 22:01:00,user_68,India,Karnataka,X,en,negative,-1.0,3,0.1,False,False,3010,0,"Terror attack condemned, fear in the region"
+141,2026-10-25 22:01:00,user_249,India,Karnataka,X,en,positive,1.0,0,0.1,False,False,4910,0,"Great success for the forces, strong response and peace restored #Defence"
+142,2026-10-25 22:08:00,user_260,India,West Bengal,X,hi,neutral,0.0,0,0.1,False,False,3249,0,सेना का अभ्यास आज सामान्य रूप से जारी
+143,2026-10-25 23:23:00,user_44,Pakistan,,X,en,negative,-1.0,0,0.14,False,False,2869,0,"Attack on convoy leaves several killed, people angry #IndiaArmy"
+144,2026-10-25 23:28:00,user_36,India,Karnataka,X,en,positive,1.0,0,0.15,False,False,4559,0,"Our army is a hero, safe borders thanks to them #Security"
+145,2026-10-25 23:29:00,user_247,Other,,X,ur/ar,positive,1.0,1,0.1,False,False,3426,0,امن مذاکرات کامیاب ہونے کی امید
+146,2026-10-25 23:49:00,user_299,India,Telangana,X,ur/ar,neutral,0.0,2,0.1,False,False,682,0,فوجی مشق معمول کے مطابق جاری #Border
+147,2026-10-25 23:55:00,user_112,Other,,X,en,negative,-1.0,0,0.16,False,False,3074,0,"Ceasefire violation again, civilians scared and killed #IndiaArmy"
+148,2026-10-26 00:10:00,user_222,Pakistan,,X,ur/ar,positive,1.0,1,0.1,False,False,4098,0,امن مذاکرات کامیاب ہونے کی امید
+149,2026-10-26 00:47:00,user_217,India,Delhi,X,en,neutral,0.0,3,0.14,False,False,1927,0,Army conducts routine exercise near the coastal sector today #IndiaArmy
+150,2026-10-26 00:59:00,user_83,India,Telangana,X,en,negative,-1.0,0,0.14,False,False,3381,0,"Attack on convoy leaves several killed, people angry #Border"
+151,2026-10-26 01:06:00,user_238,Pakistan,,X,en,neutral,0.0,0,0.1,False,False,1315,0,"Joint military drill begins, officials say it is routine #Border"
+152,2026-10-26 01:24:00,user_285,India,Tamil Nadu,X,en,positive,1.0,0,0.15,False,False,3401,0,"Our army is a hero, safe borders thanks to them #Security"
+153,2026-10-26 01:30:00,user_288,India,Karnataka,X,hi,negative,-1.0,4,0.1,False,False,4656,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा"
+154,2026-10-26 01:52:00,user_202,Other,,X,en,positive,1.0,0,0.1,False,False,4749,0,"Positive talks, peace process moves forward"
+155,2026-10-26 01:58:00,user_220,Unknown,,X,en,negative,-1.0,0,0.1,False,False,4236,0,"Shameful failure of intelligence, war like situation"
+156,2026-10-26 02:16:00,user_17,Unknown,,X,en,neutral,0.0,3,0.1,False,False,3962,0,Weather delays flights near the border region #Security
+157,2026-10-26 02:18:00,user_2,China,,X,en,positive,1.0,0,0.1,False,False,1279,0,"Great success for the forces, strong response and peace restored"
+158,2026-10-26 02:43:00,user_302,India,Tamil Nadu,X,ur/ar,positive,1.0,1,0.1,False,False,3285,0,امن مذاکرات کامیاب ہونے کی امید
+159,2026-10-26 02:48:00,user_302,India,Karnataka,X,ur/ar,neutral,0.0,2,0.1,False,False,1223,0,فوجی مشق معمول کے مطابق جاری
+160,2026-10-26 02:56:00,user_136,India,Tamil Nadu,X,en,negative,-1.0,0,0.15,False,False,1331,0,"Attack on convoy leaves several killed, people angry"
+161,2026-10-26 03:09:00,user_59,Pakistan,,X,en,neutral,0.0,0,0.1,False,False,785,0,"Joint military drill begins, officials say it is routine #Security"
+162,2026-10-26 03:19:00,user_23,India,Tamil Nadu,X,en,negative,-1.0,0,0.16,False,False,4079,0,"Ceasefire violation again, civilians scared and killed"
+163,2026-10-26 03:28:00,user_214,Pakistan,,X,ur/ar,neutral,0.0,2,0.1,False,False,3960,0,فوجی مشق معمول کے مطابق جاری #Border
+164,2026-10-26 03:39:00,user_220,Pakistan,,X,en,negative,-1.0,0,0.14,False,False,4237,0,"Attack on convoy leaves several killed, people angry #Border"
+165,2026-10-26 03:46:00,user_282,India,,X,en,neutral,0.0,3,0.1,False,False,3629,0,Weather delays flights near the border region
+166,2026-10-26 03:46:00,user_251,India,Karnataka,X,ur/ar,neutral,0.0,2,0.1,False,False,4804,0,فوجی مشق معمول کے مطابق جاری #IndiaArmy
+167,2026-10-26 03:49:00,user_246,India,Telangana,X,en,positive,1.0,3,0.17,False,False,1524,0,"Proud of our soldiers, salute to the brave jawans"
+168,2026-10-26 03:54:00,user_177,Pakistan,,X,ur/ar,neutral,0.0,2,0.1,False,False,1116,0,فوجی مشق معمول کے مطابق جاری
+169,2026-10-26 03:54:00,user_293,India,,X,en,negative,-1.0,0,0.16,False,False,2190,0,"Ceasefire violation again, civilians scared and killed"
+170,2026-10-26 04:14:00,user_45,India,Karnataka,X,en,negative,-1.0,0,0.1,False,False,1631,0,"Shameful failure of intelligence, war like situation"
+171,2026-10-26 04:17:00,user_236,India,Telangana,X,en,neutral,0.0,3,0.1,False,False,1200,0,Weather delays flights near the border region #IndiaArmy
+172,2026-10-26 04:28:00,user_220,India,Telangana,X,hi,positive,1.0,0,0.1,False,False,4797,0,शांति और सफल वार्ता की उम्मीद #Border
+173,2026-10-26 04:43:00,user_183,Other,,X,ur/ar,positive,1.0,1,0.1,False,False,4223,0,امن مذاکرات کامیاب ہونے کی امید #IndiaArmy
+174,2026-10-26 05:10:00,user_139,Pakistan,,X,en,neutral,0.0,3,0.15,False,False,2579,0,Army conducts routine exercise near the eastern sector today
+175,2026-10-26 05:30:00,user_32,India,,X,hi,negative,-1.0,4,0.1,False,False,1903,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा"
+176,2026-10-26 05:42:00,user_191,Other,,X,ur/ar,neutral,0.0,2,0.1,False,False,4407,0,فوجی مشق معمول کے مطابق جاری
+177,2026-10-26 05:46:00,user_91,Other,,X,ur/ar,negative,-1.0,5,0.1,False,False,2423,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+178,2026-10-26 05:59:00,user_228,Pakistan,,X,en,neutral,0.0,6,0.1,False,False,3384,0,Parliament committee discusses defence budget allocation
+179,2026-10-26 06:01:00,user_207,India,West Bengal,X,en,neutral,0.0,3,0.1,False,False,4876,0,Weather delays flights near the border region #Border
+180,2026-10-26 06:02:00,user_128,Pakistan,,X,hi,positive,1.0,0,0.1,False,False,4788,0,शांति और सफल वार्ता की उम्मीद
+181,2026-10-26 06:05:00,user_203,Other,,X,hi,positive,1.0,4,0.1,False,False,4789,0,"हमारे सैनिकों पर गर्व है, सलाम"
+182,2026-10-26 06:15:00,user_154,Pakistan,,X,en,positive,1.0,0,0.15,False,False,2188,0,"Our army is a hero, safe borders thanks to them #Defence"
+183,2026-10-26 06:23:00,user_307,India,Telangana,X,ur/ar,negative,-1.0,5,0.1,False,False,1782,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+184,2026-10-26 07:35:00,user_230,Unknown,,X,en,neutral,0.0,3,0.15,False,False,2516,0,Army conducts routine exercise near the northern sector today #Border
+185,2026-10-26 07:36:00,user_157,India,Tamil Nadu,X,en,neutral,0.0,0,0.1,False,False,189,0,"Joint military drill begins, officials say it is routine"
+186,2026-10-26 07:36:00,user_288,Unknown,,X,en,neutral,0.0,3,0.15,False,False,2196,0,Army conducts routine exercise near the coastal sector today
+187,2026-10-26 07:37:00,user_247,India,West Bengal,X,ur/ar,negative,-1.0,5,0.1,False,False,3927,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+188,2026-10-26 07:40:00,user_6,India,,X,ur/ar,neutral,0.0,2,0.1,False,False,3135,0,فوجی مشق معمول کے مطابق جاری #Defence
+189,2026-10-26 08:30:00,user_261,India,Telangana,X,ur/ar,positive,1.0,1,0.1,False,False,1643,0,امن مذاکرات کامیاب ہونے کی امید
+190,2026-10-26 09:00:00,user_186,India,,X,hi,negative,-1.0,4,0.1,False,False,1411,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा #Border"
+191,2026-10-26 09:04:00,user_157,Other,,X,en,neutral,0.0,6,0.1,False,False,4668,0,Defence ministry briefing scheduled this afternoon
+192,2026-10-26 09:05:00,user_11,India,,X,ur/ar,positive,1.0,1,0.1,False,False,2952,0,امن مذاکرات کامیاب ہونے کی امید
+193,2026-10-26 09:20:00,user_67,Pakistan,,X,ur/ar,negative,-1.0,5,0.1,False,False,1956,0,سرحد پر حملہ، لوگ خوفزدہ ہیں #Border
+194,2026-10-26 09:34:00,user_264,India,Tamil Nadu,X,hi,positive,1.0,0,0.1,False,False,2638,0,शांति और सफल वार्ता की उम्मीद
+195,2026-10-26 09:47:00,user_121,Other,,X,en,negative,-1.0,3,0.1,False,False,3953,0,"Terror attack condemned, fear in the region"
+196,2026-10-26 09:53:00,user_22,India,West Bengal,X,en,positive,1.0,3,0.17,False,False,1176,0,"Proud of our soldiers, salute to the brave jawans"
+197,2026-10-26 09:55:00,user_107,India,Tamil Nadu,X,ur/ar,positive,1.0,1,0.1,False,False,3427,0,امن مذاکرات کامیاب ہونے کی امید #IndiaArmy
+198,2026-10-26 09:55:00,user_303,India,Telangana,X,ur/ar,negative,-1.0,5,0.1,False,False,3928,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+199,2026-10-26 10:02:00,user_103,India,Telangana,X,ur/ar,negative,-1.0,5,0.1,False,False,4907,0,سرحد پر حملہ، لوگ خوفزدہ ہیں #Defence
+200,2026-10-26 10:26:00,user_239,Pakistan,,X,ur/ar,neutral,0.0,2,0.1,False,False,1685,0,فوجی مشق معمول کے مطابق جاری
+201,2026-10-26 10:29:00,user_191,Pakistan,,X,en,positive,1.0,0,0.1,False,False,3834,0,"Positive talks, peace process moves forward"
+202,2026-10-26 11:32:00,user_297,Pakistan,,X,en,positive,1.0,0,0.1,False,False,4755,0,"Great success for the forces, strong response and peace restored"
+203,2026-10-26 11:36:00,user_262,Pakistan,,X,en,neutral,0.0,6,0.1,False,False,4563,0,Parliament committee discusses defence budget allocation
+204,2026-10-26 11:53:00,user_212,Pakistan,,X,en,positive,1.0,0,0.1,False,False,227,0,"Positive talks, peace process moves forward"
+205,2026-10-26 11:58:00,user_305,Pakistan,,X,ur/ar,positive,1.0,1,0.1,False,False,3942,0,امن مذاکرات کامیاب ہونے کی امید
+206,2026-10-26 12:18:00,user_112,India,Telangana,X,ur/ar,positive,1.0,1,0.1,False,False,592,0,امن مذاکرات کامیاب ہونے کی امید
+207,2026-10-26 12:32:00,user_91,India,Tamil Nadu,X,en,positive,1.0,0,0.15,False,False,3278,0,"Our army is a hero, safe borders thanks to them"
+208,2026-10-26 12:34:00,user_189,India,Tamil Nadu,X,en,neutral,0.0,6,0.1,False,False,375,0,Parliament committee discusses defence budget allocation #IndiaArmy
+209,2026-10-26 13:01:00,user_52,India,Karnataka,X,ur/ar,positive,1.0,1,0.1,False,False,3828,0,امن مذاکرات کامیاب ہونے کی امید
+210,2026-10-26 13:01:00,user_183,India,Delhi,X,en,positive,1.0,3,0.17,False,False,1880,0,"Proud of our soldiers, salute to the brave jawans"
+211,2026-10-26 13:05:00,user_163,India,,X,en,positive,1.0,0,0.1,False,False,1923,0,"Positive talks, peace process moves forward"
+212,2026-10-26 13:14:00,user_118,India,Telangana,X,en,positive,1.0,0,0.1,False,False,567,0,"Positive talks, peace process moves forward"
+213,2026-10-26 13:16:00,user_209,Other,,X,en,positive,1.0,3,0.17,False,False,1780,0,"Proud of our soldiers, salute to the brave jawans"
+214,2026-10-26 14:18:00,user_224,Unknown,,X,hi,positive,1.0,4,0.1,False,False,2082,0,"हमारे सैनिकों पर गर्व है, सलाम"
+215,2026-10-26 14:20:00,user_209,Pakistan,,X,en,neutral,0.0,3,0.15,False,False,1983,0,Army conducts routine exercise near the coastal sector today
+216,2026-10-26 14:29:00,user_264,India,Tamil Nadu,X,en,positive,1.0,0,0.15,False,False,1553,0,"Our army is a hero, safe borders thanks to them"
+217,2026-10-26 14:35:00,user_235,Pakistan,,X,en,neutral,0.0,0,0.1,False,False,2118,0,"Joint military drill begins, officials say it is routine"
+218,2026-10-26 14:40:00,user_91,China,,X,en,neutral,0.0,0,0.1,False,False,1126,0,"Joint military drill begins, officials say it is routine"
+219,2026-10-26 15:04:00,user_145,Other,,X,ur/ar,neutral,0.0,2,0.1,False,False,1533,0,فوجی مشق معمول کے مطابق جاری
+220,2026-10-26 15:12:00,user_188,India,Tamil Nadu,X,ur/ar,positive,1.0,1,0.1,False,False,301,0,امن مذاکرات کامیاب ہونے کی امید
+221,2026-10-26 15:15:00,user_309,China,,X,hi,neutral,0.0,0,0.1,False,False,2089,0,सेना का अभ्यास आज सामान्य रूप से जारी
+222,2026-10-26 15:18:00,user_216,Pakistan,,X,en,neutral,0.0,6,0.1,False,False,1390,0,Defence ministry briefing scheduled this afternoon #Defence
+223,2026-10-26 15:26:00,user_84,Pakistan,,X,en,positive,1.0,0,0.1,False,False,368,0,"Positive talks, peace process moves forward"
+224,2026-10-26 15:30:00,user_261,Other,,X,en,positive,1.0,0,0.15,False,False,2567,0,"Our army is a hero, safe borders thanks to them"
+225,2026-10-26 15:32:00,user_154,India,Karnataka,X,hi,negative,-1.0,4,0.1,False,False,1501,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा #Defence"
+226,2026-10-26 15:43:00,user_314,Other,,X,en,neutral,0.0,3,0.15,False,False,3467,0,Army conducts routine exercise near the western sector today
+227,2026-10-26 16:29:00,user_59,Unknown,,X,en,neutral,0.0,0,0.1,False,False,745,0,"Joint military drill begins, officials say it is routine"
+228,2026-10-26 16:31:00,user_15,India,Delhi,X,en,positive,1.0,3,0.17,False,False,703,0,"Proud of our soldiers, salute to the brave jawans"
+229,2026-10-26 16:31:00,user_28,India,Delhi,X,en,positive,1.0,0,0.15,False,False,966,0,"Our army is a hero, safe borders thanks to them"
+230,2026-10-26 16:41:00,user_183,India,Telangana,X,ur/ar,positive,1.0,1,0.1,False,False,758,0,امن مذاکرات کامیاب ہونے کی امید
+231,2026-10-26 16:41:00,user_210,Pakistan,,X,ur/ar,positive,1.0,1,0.1,False,False,2164,0,امن مذاکرات کامیاب ہونے کی امید
+232,2026-10-26 17:23:00,user_64,Pakistan,,X,hi,positive,1.0,4,0.1,False,False,2390,0,"हमारे सैनिकों पर गर्व है, सलाम"
+233,2026-10-26 17:28:00,user_269,Other,,X,ur/ar,positive,1.0,1,0.1,False,False,295,0,امن مذاکرات کامیاب ہونے کی امید #Security
+234,2026-10-26 17:33:00,user_51,China,,X,en,neutral,0.0,3,0.1,False,False,2921,0,Weather delays flights near the border region
+235,2026-10-26 17:55:00,user_26,India,West Bengal,X,en,neutral,0.0,3,0.15,False,False,3705,0,Army conducts routine exercise near the northern sector today
+236,2026-10-26 18:13:00,user_63,Pakistan,,X,hi,positive,1.0,4,0.1,False,False,4753,0,"हमारे सैनिकों पर गर्व है, सलाम #IndiaArmy"
+237,2026-10-26 18:15:00,user_17,India,Delhi,X,en,neutral,0.0,6,0.1,False,False,2757,0,Defence ministry briefing scheduled this afternoon
+238,2026-10-26 18:18:00,user_160,Pakistan,,X,ur/ar,positive,1.0,1,0.1,False,False,56,0,امن مذاکرات کامیاب ہونے کی امید
+239,2026-10-26 18:23:00,user_84,Unknown,,X,en,negative,-1.0,0,0.14,False,False,240,0,"Attack on convoy leaves several killed, people angry #Security"
+240,2026-10-26 18:35:00,user_46,Other,,X,en,negative,-1.0,3,0.1,False,False,2742,0,"Terror attack condemned, fear in the region"
+241,2026-10-26 19:23:00,user_146,China,,X,en,positive,1.0,0,0.15,False,False,2715,0,"Our army is a hero, safe borders thanks to them"
+242,2026-10-26 19:46:00,user_39,India,Telangana,X,en,neutral,0.0,0,0.1,False,False,3573,0,"Joint military drill begins, officials say it is routine"
+243,2026-10-26 19:48:00,user_242,India,West Bengal,X,en,neutral,0.0,0,0.1,False,False,3110,0,"Joint military drill begins, officials say it is routine"
+244,2026-10-26 20:10:00,user_18,India,Tamil Nadu,X,en,positive,1.0,0,0.15,False,False,3980,0,"Our army is a hero, safe borders thanks to them"
+245,2026-10-26 20:12:00,user_260,China,,X,en,negative,-1.0,3,0.1,False,False,638,0,"Terror attack condemned, fear in the region"
+246,2026-10-26 20:14:00,user_234,India,Delhi,X,en,neutral,0.0,3,0.15,False,False,1721,0,Army conducts routine exercise near the eastern sector today
+247,2026-10-26 20:21:00,user_116,India,,X,ur/ar,neutral,0.0,2,0.1,False,False,4793,0,فوجی مشق معمول کے مطابق جاری #Border
+248,2026-10-26 20:30:00,user_265,Pakistan,,X,en,negative,-1.0,0,0.1,False,False,4013,0,"Shameful failure of intelligence, war like situation"
+249,2026-10-26 20:36:00,user_130,China,,X,hi,positive,1.0,4,0.1,False,False,3202,0,"हमारे सैनिकों पर गर्व है, सलाम #Security"
+250,2026-10-26 20:47:00,user_53,Pakistan,,X,en,neutral,0.0,3,0.15,False,False,1027,0,Army conducts routine exercise near the western sector today
+251,2026-10-26 20:54:00,user_1,India,Telangana,X,en,positive,1.0,0,0.15,False,False,4459,0,"Our army is a hero, safe borders thanks to them"
+252,2026-10-26 20:57:00,user_240,Pakistan,,X,en,negative,-1.0,3,0.1,False,False,2611,0,"Terror attack condemned, fear in the region #Security"
+253,2026-10-26 20:59:00,user_289,India,Tamil Nadu,X,en,neutral,0.0,3,0.1,False,False,976,0,Weather delays flights near the border region
+254,2026-10-26 21:24:00,user_61,Pakistan,,X,en,neutral,0.0,3,0.1,False,False,2250,0,Weather delays flights near the border region
+255,2026-10-26 21:26:00,user_285,Other,,X,en,negative,-1.0,0,0.16,False,False,624,0,"Ceasefire violation again, civilians scared and killed #Security"
+256,2026-10-26 21:27:00,user_294,India,Delhi,X,en,neutral,0.0,6,0.1,False,False,3543,0,Defence ministry briefing scheduled this afternoon
+257,2026-10-26 21:43:00,user_234,India,Telangana,X,en,negative,-1.0,3,0.1,False,False,921,0,"Terror attack condemned, fear in the region"
+258,2026-10-26 21:48:00,user_123,Pakistan,,X,en,neutral,0.0,3,0.15,False,False,3591,0,Army conducts routine exercise near the coastal sector today
+259,2026-10-26 21:48:00,user_74,India,Telangana,X,en,negative,-1.0,0,0.15,False,False,4321,0,"Attack on convoy leaves several killed, people angry"
+260,2026-10-26 21:51:00,user_240,Pakistan,,X,en,negative,-1.0,0,0.1,False,False,2055,0,"Shameful failure of intelligence, war like situation"
+261,2026-10-26 21:57:00,user_148,India,Karnataka,X,en,negative,-1.0,0,0.16,False,False,793,0,"Ceasefire violation again, civilians scared and killed"
+262,2026-10-26 22:13:00,user_288,India,Tamil Nadu,X,hi,neutral,0.0,0,0.1,False,False,4322,0,सेना का अभ्यास आज सामान्य रूप से जारी
+263,2026-10-26 22:21:00,user_104,Pakistan,,X,ur/ar,positive,1.0,1,0.1,False,False,3065,0,امن مذاکرات کامیاب ہونے کی امید
+264,2026-10-26 22:25:00,user_120,India,Tamil Nadu,X,ur/ar,neutral,0.0,2,0.1,False,False,3018,0,فوجی مشق معمول کے مطابق جاری
+265,2026-10-26 22:36:00,user_66,India,West Bengal,X,en,negative,-1.0,0,0.16,False,False,3689,0,"Ceasefire violation again, civilians scared and killed"
+266,2026-10-26 22:39:00,user_265,Pakistan,,X,en,negative,-1.0,0,0.16,False,False,2421,0,"Ceasefire violation again, civilians scared and killed"
+267,2026-10-26 22:43:00,user_60,Other,,X,hi,positive,1.0,4,0.1,False,False,2175,0,"हमारे सैनिकों पर गर्व है, सलाम #Security"
+268,2026-10-26 22:49:00,user_173,India,Karnataka,X,en,neutral,0.0,3,0.1,False,False,877,0,Weather delays flights near the border region
+269,2026-10-26 23:30:00,user_255,India,Tamil Nadu,X,en,neutral,0.0,0,0.1,False,False,2773,0,"Joint military drill begins, officials say it is routine #Security"
+270,2026-10-26 23:31:00,user_188,India,Karnataka,X,en,positive,1.0,0,0.1,False,False,4637,0,"Great success for the forces, strong response and peace restored #IndiaArmy"
+271,2026-10-26 23:44:00,user_6,India,Telangana,X,en,negative,-1.0,0,0.16,False,False,4392,0,"Ceasefire violation again, civilians scared and killed #Border"
+272,2026-10-26 23:53:00,user_177,India,Karnataka,X,en,neutral,0.0,3,0.1,False,False,4306,0,Weather delays flights near the border region
+273,2026-10-26 23:54:00,user_107,India,,X,en,positive,1.0,0,0.15,False,False,928,0,"Our army is a hero, safe borders thanks to them #Defence"
+274,2026-10-27 00:03:00,user_248,India,Karnataka,X,en,negative,-1.0,3,0.1,False,False,4045,0,"Terror attack condemned, fear in the region"
+275,2026-10-27 00:04:00,user_201,Pakistan,,X,en,positive,1.0,0,0.1,False,False,4167,0,"Positive talks, peace process moves forward"
+276,2026-10-27 00:11:00,user_259,China,,X,en,neutral,0.0,6,0.1,False,False,2884,0,Parliament committee discusses defence budget allocation #Defence
+277,2026-10-27 00:41:00,user_229,India,,X,en,positive,1.0,3,0.17,False,False,487,0,"Proud of our soldiers, salute to the brave jawans"
+278,2026-10-27 01:07:00,user_57,India,West Bengal,X,en,negative,-1.0,3,0.1,False,False,2411,0,"Terror attack condemned, fear in the region"
+279,2026-10-27 01:09:00,user_268,India,Telangana,X,ur/ar,neutral,0.0,2,0.1,False,False,4639,0,فوجی مشق معمول کے مطابق جاری
+280,2026-10-27 01:10:00,user_168,Pakistan,,X,en,neutral,0.0,6,0.1,False,False,1490,0,Defence ministry briefing scheduled this afternoon
+281,2026-10-27 01:20:00,user_78,India,Karnataka,X,ur/ar,negative,-1.0,5,0.1,False,False,1225,0,سرحد پر حملہ، لوگ خوفزدہ ہیں #Security
+282,2026-10-27 01:39:00,user_263,Pakistan,,X,en,neutral,0.0,3,0.15,False,False,1467,0,Army conducts routine exercise near the coastal sector today
+283,2026-10-27 02:11:00,user_60,Unknown,,X,ur/ar,neutral,0.0,2,0.1,False,False,3037,0,فوجی مشق معمول کے مطابق جاری
+284,2026-10-27 02:14:00,user_16,China,,X,ur/ar,positive,1.0,1,0.1,False,False,3721,0,امن مذاکرات کامیاب ہونے کی امید
+285,2026-10-27 02:25:00,user_225,India,,X,ur/ar,negative,-1.0,5,0.1,False,False,1008,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+286,2026-10-27 02:50:00,user_219,Unknown,,X,hi,positive,1.0,0,0.1,False,False,886,0,शांति और सफल वार्ता की उम्मीद #Border
+287,2026-10-27 03:38:00,user_33,India,West Bengal,X,en,neutral,0.0,3,0.1,False,False,4585,0,Weather delays flights near the border region
+288,2026-10-27 04:10:00,user_185,Other,,X,en,neutral,0.0,6,0.1,False,False,1158,0,Defence ministry briefing scheduled this afternoon #Security
+289,2026-10-27 04:26:00,user_139,Unknown,,X,hi,negative,-1.0,4,0.1,False,False,2715,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा"
+290,2026-10-27 04:54:00,user_111,Pakistan,,X,en,positive,1.0,3,0.17,False,False,4894,0,"Proud of our soldiers, salute to the brave jawans #IndiaArmy"
+291,2026-10-27 05:20:00,user_208,India,Tamil Nadu,X,en,negative,-1.0,0,0.16,False,False,3441,0,"Ceasefire violation again, civilians scared and killed #IndiaArmy"
+292,2026-10-27 05:50:00,user_84,Pakistan,,X,en,neutral,0.0,6,0.1,False,False,4545,0,Parliament committee discusses defence budget allocation
+293,2026-10-27 06:00:00,user_22,Pakistan,,X,en,neutral,0.0,0,0.1,False,False,2462,0,"Joint military drill begins, officials say it is routine"
+294,2026-10-27 06:06:00,user_160,China,,X,hi,neutral,0.0,0,0.1,False,False,1531,0,सेना का अभ्यास आज सामान्य रूप से जारी #Border
+295,2026-10-27 06:06:00,user_49,India,Delhi,X,en,neutral,0.0,6,0.1,False,False,3749,0,Defence ministry briefing scheduled this afternoon #Security
+296,2026-10-27 06:53:00,user_262,India,Telangana,X,en,positive,1.0,0,0.1,False,False,3951,0,"Positive talks, peace process moves forward #Security"
+297,2026-10-27 07:04:00,user_180,India,Tamil Nadu,X,en,neutral,0.0,6,0.1,False,False,2559,0,Defence ministry briefing scheduled this afternoon #Security
+298,2026-10-27 07:04:00,user_239,India,Delhi,X,hi,neutral,0.0,0,0.1,False,False,1444,0,सेना का अभ्यास आज सामान्य रूप से जारी
+299,2026-10-27 07:21:00,user_1,China,,X,en,positive,1.0,0,0.15,False,False,561,0,"Our army is a hero, safe borders thanks to them"
+300,2026-10-27 07:26:00,user_144,India,,X,en,positive,1.0,0,0.15,False,False,879,0,"Our army is a hero, safe borders thanks to them #IndiaArmy"
+301,2026-10-27 07:48:00,user_193,India,,X,en,neutral,0.0,6,0.1,False,False,1484,0,Parliament committee discusses defence budget allocation
+302,2026-10-27 07:58:00,user_194,Unknown,,X,ur/ar,neutral,0.0,2,0.1,False,False,4536,0,فوجی مشق معمول کے مطابق جاری
+303,2026-10-27 08:04:00,user_280,Pakistan,,X,en,neutral,0.0,6,0.1,False,False,4449,0,Parliament committee discusses defence budget allocation
+304,2026-10-27 08:06:00,user_269,China,,X,hi,negative,-1.0,4,0.1,False,False,4717,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा #Border"
+305,2026-10-27 08:15:00,user_242,India,Karnataka,X,en,neutral,0.0,3,0.15,False,False,3210,0,Army conducts routine exercise near the northern sector today
+306,2026-10-27 08:28:00,user_252,India,Telangana,X,en,negative,-1.0,0,0.15,False,False,2942,0,"Attack on convoy leaves several killed, people angry"
+307,2026-10-27 08:42:00,user_119,India,,X,ur/ar,neutral,0.0,2,0.1,False,False,818,0,فوجی مشق معمول کے مطابق جاری #Border
+308,2026-10-27 08:48:00,user_30,India,,X,en,neutral,0.0,6,0.1,False,False,2177,0,Parliament committee discusses defence budget allocation
+309,2026-10-27 09:03:00,user_272,India,West Bengal,X,ur/ar,positive,1.0,1,0.1,False,False,2218,0,امن مذاکرات کامیاب ہونے کی امید
+310,2026-10-27 09:23:00,user_195,Unknown,,X,en,negative,-1.0,0,0.1,False,False,3140,0,"Shameful failure of intelligence, war like situation"
+311,2026-10-27 09:28:00,user_250,India,Delhi,X,en,positive,1.0,0,0.1,False,False,438,0,"Positive talks, peace process moves forward"
+312,2026-10-27 10:00:00,user_292,Pakistan,,X,hi,neutral,0.0,0,0.1,False,False,1118,0,सेना का अभ्यास आज सामान्य रूप से जारी
+313,2026-10-27 10:03:00,user_230,Pakistan,,X,ur/ar,positive,1.0,1,0.1,False,False,344,0,امن مذاکرات کامیاب ہونے کی امید #Defence
+314,2026-10-27 11:03:00,user_257,India,Tamil Nadu,X,en,positive,1.0,0,0.1,False,False,3921,0,"Great success for the forces, strong response and peace restored #Border"
+315,2026-10-27 11:22:00,user_238,China,,X,en,neutral,0.0,0,0.1,False,False,4134,0,"Joint military drill begins, officials say it is routine"
+316,2026-10-27 11:39:00,user_89,Other,,X,en,neutral,0.0,0,0.1,False,False,2222,0,"Joint military drill begins, officials say it is routine"
+317,2026-10-27 12:03:00,user_10,India,,X,en,neutral,0.0,3,0.15,False,False,2025,0,Army conducts routine exercise near the coastal sector today
+318,2026-10-27 12:08:00,user_54,Pakistan,,X,en,neutral,0.0,0,0.1,False,False,4216,0,"Joint military drill begins, officials say it is routine #Border"
+319,2026-10-27 12:18:00,user_49,Pakistan,,X,en,neutral,0.0,0,0.1,False,False,2900,0,"Joint military drill begins, officials say it is routine"
+320,2026-10-27 12:20:00,user_161,India,Karnataka,X,ur/ar,negative,-1.0,5,0.1,False,False,2726,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+321,2026-10-27 12:30:00,user_2,India,,X,en,neutral,0.0,3,0.1,False,False,3304,0,Weather delays flights near the border region #Security
+322,2026-10-27 12:35:00,user_208,India,Telangana,X,en,neutral,0.0,6,0.1,False,False,3671,0,Defence ministry briefing scheduled this afternoon #IndiaArmy
+323,2026-10-27 12:49:00,user_130,India,Delhi,X,hi,neutral,0.0,0,0.1,False,False,4435,0,सेना का अभ्यास आज सामान्य रूप से जारी #Security
+324,2026-10-27 12:49:00,user_237,Pakistan,,X,en,neutral,0.0,3,0.15,False,False,567,0,Army conducts routine exercise near the northern sector today
+325,2026-10-27 12:54:00,user_173,Pakistan,,X,en,positive,1.0,3,0.17,False,False,2890,0,"Proud of our soldiers, salute to the brave jawans"
+326,2026-10-27 13:09:00,user_224,India,Tamil Nadu,X,ur/ar,positive,1.0,1,0.1,False,False,4079,0,امن مذاکرات کامیاب ہونے کی امید #Defence
+327,2026-10-27 13:21:00,user_73,Pakistan,,X,en,neutral,0.0,6,0.1,False,False,918,0,Defence ministry briefing scheduled this afternoon
+328,2026-10-27 13:26:00,user_49,India,West Bengal,X,en,positive,1.0,0,0.1,False,False,1241,0,"Positive talks, peace process moves forward"
+329,2026-10-27 13:42:00,user_312,India,,X,en,neutral,0.0,6,0.1,False,False,2215,0,Parliament committee discusses defence budget allocation
+330,2026-10-27 13:44:00,user_71,Pakistan,,X,ur/ar,neutral,0.0,2,0.1,False,False,4834,0,فوجی مشق معمول کے مطابق جاری
+331,2026-10-27 14:26:00,user_114,China,,X,en,positive,1.0,0,0.15,False,False,816,0,"Our army is a hero, safe borders thanks to them #IndiaArmy"
+332,2026-10-27 14:33:00,user_226,China,,X,en,negative,-1.0,3,0.1,False,False,923,0,"Terror attack condemned, fear in the region"
+333,2026-10-27 14:35:00,user_72,India,Delhi,X,en,positive,1.0,3,0.17,False,False,4623,0,"Proud of our soldiers, salute to the brave jawans"
+334,2026-10-27 14:48:00,user_274,Unknown,,X,ur/ar,neutral,0.0,2,0.1,False,False,4136,0,فوجی مشق معمول کے مطابق جاری
+335,2026-10-27 15:15:00,user_167,India,Delhi,X,en,neutral,0.0,6,0.1,False,False,4950,0,Defence ministry briefing scheduled this afternoon #Defence
+336,2026-10-27 15:18:00,user_115,Pakistan,,X,en,neutral,0.0,6,0.1,False,False,2612,0,Parliament committee discusses defence budget allocation
+337,2026-10-27 15:36:00,user_243,Unknown,,X,en,neutral,0.0,6,0.1,False,False,4384,0,Defence ministry briefing scheduled this afternoon
+338,2026-10-27 15:47:00,user_115,China,,X,en,negative,-1.0,0,0.16,False,False,1541,0,"Ceasefire violation again, civilians scared and killed"
+339,2026-10-27 15:53:00,user_316,India,Telangana,X,hi,negative,-1.0,4,0.1,False,False,3829,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा #Border"
+340,2026-10-27 15:56:00,user_95,India,Karnataka,X,en,negative,-1.0,0,0.1,False,False,1454,0,"Shameful failure of intelligence, war like situation #IndiaArmy"
+341,2026-10-27 16:05:00,user_155,Other,,X,hi,positive,1.0,0,0.1,False,False,648,0,शांति और सफल वार्ता की उम्मीद
+342,2026-10-27 16:18:00,user_50,Unknown,,X,en,neutral,0.0,6,0.1,False,False,338,0,Defence ministry briefing scheduled this afternoon
+343,2026-10-27 16:37:00,user_7,India,Karnataka,X,ur/ar,positive,1.0,1,0.1,False,False,921,0,امن مذاکرات کامیاب ہونے کی امید
+344,2026-10-27 16:47:00,user_238,Unknown,,X,en,neutral,0.0,3,0.1,False,False,4900,0,Weather delays flights near the border region
+345,2026-10-27 16:54:00,user_8,Pakistan,,X,en,negative,-1.0,0,0.15,False,False,196,0,"Attack on convoy leaves several killed, people angry"
+346,2026-10-27 17:10:00,user_3,India,Telangana,X,ur/ar,neutral,0.0,2,0.1,False,False,830,0,فوجی مشق معمول کے مطابق جاری #Security
+347,2026-10-27 17:39:00,user_208,India,Telangana,X,ur/ar,neutral,0.0,2,0.1,False,False,1632,0,فوجی مشق معمول کے مطابق جاری
+348,2026-10-27 17:52:00,user_296,Pakistan,,X,ur/ar,neutral,0.0,2,0.1,False,False,2089,0,فوجی مشق معمول کے مطابق جاری
+349,2026-10-27 17:55:00,user_26,India,Karnataka,X,hi,neutral,0.0,0,0.1,False,False,702,0,सेना का अभ्यास आज सामान्य रूप से जारी
+350,2026-10-27 18:07:00,user_4,China,,X,en,neutral,0.0,3,0.1,False,False,893,0,Weather delays flights near the border region
+351,2026-10-27 18:30:00,user_165,Pakistan,,X,en,positive,1.0,0,0.1,False,False,3811,0,"Great success for the forces, strong response and peace restored"
+352,2026-10-27 18:49:00,user_205,Pakistan,,X,en,neutral,0.0,3,0.1,False,False,3269,0,Weather delays flights near the border region
+353,2026-10-27 19:00:00,user_264,Pakistan,,X,hi,positive,1.0,0,0.1,False,False,1824,0,शांति और सफल वार्ता की उम्मीद
+354,2026-10-27 19:17:00,user_248,India,Telangana,X,ur/ar,negative,-1.0,5,0.1,False,False,891,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+355,2026-10-27 19:20:00,user_198,Pakistan,,X,ur/ar,negative,-1.0,5,0.1,False,False,3977,0,سرحد پر حملہ، لوگ خوفزدہ ہیں #Security
+356,2026-10-27 19:26:00,user_102,China,,X,en,neutral,0.0,0,0.1,False,False,2834,0,"Joint military drill begins, officials say it is routine"
+357,2026-10-27 19:44:00,user_22,India,Tamil Nadu,X,en,positive,1.0,0,0.1,False,False,3300,0,"Great success for the forces, strong response and peace restored"
+358,2026-10-27 19:46:00,user_125,Pakistan,,X,en,positive,1.0,0,0.1,False,False,4940,0,"Positive talks, peace process moves forward #Border"
+359,2026-10-27 19:49:00,user_186,India,Tamil Nadu,X,en,neutral,0.0,3,0.15,False,False,3650,0,Army conducts routine exercise near the northern sector today
+360,2026-10-27 20:12:00,user_304,India,,X,hi,neutral,0.0,0,0.1,False,False,908,0,सेना का अभ्यास आज सामान्य रूप से जारी
+361,2026-10-27 20:17:00,user_275,India,West Bengal,X,en,negative,-1.0,0,0.16,False,False,2390,0,"Ceasefire violation again, civilians scared and killed"
+362,2026-10-27 20:19:00,user_221,India,Karnataka,X,en,negative,-1.0,0,0.1,False,False,4869,0,"Shameful failure of intelligence, war like situation #Border"
+363,2026-10-27 20:31:00,user_130,India,Karnataka,X,en,neutral,0.0,6,0.1,False,False,3634,0,Parliament committee discusses defence budget allocation
+364,2026-10-27 20:31:00,user_70,Pakistan,,X,en,neutral,0.0,6,0.1,False,False,3108,0,Defence ministry briefing scheduled this afternoon #Security
+365,2026-10-27 20:43:00,user_240,Pakistan,,X,en,neutral,0.0,3,0.15,False,False,1687,0,Army conducts routine exercise near the northern sector today
+366,2026-10-27 20:54:00,user_205,India,Telangana,X,en,neutral,0.0,0,0.1,False,False,957,0,"Joint military drill begins, officials say it is routine"
+367,2026-10-27 21:20:00,user_163,India,Tamil Nadu,X,ur/ar,positive,1.0,1,0.1,False,False,4416,0,امن مذاکرات کامیاب ہونے کی امید
+368,2026-10-27 21:28:00,user_97,Other,,X,en,negative,-1.0,0,0.1,False,False,61,0,"Shameful failure of intelligence, war like situation"
+369,2026-10-27 21:36:00,user_171,India,West Bengal,X,en,positive,1.0,3,0.17,False,False,3802,0,"Proud of our soldiers, salute to the brave jawans"
+370,2026-10-27 21:38:00,user_202,Pakistan,,X,en,positive,1.0,0,0.1,False,False,2451,0,"Positive talks, peace process moves forward"
+371,2026-10-27 22:02:00,user_156,Other,,X,en,positive,1.0,0,0.15,False,False,632,0,"Our army is a hero, safe borders thanks to them #Border"
+372,2026-10-27 22:08:00,user_151,Unknown,,X,en,neutral,0.0,6,0.1,False,False,2798,0,Defence ministry briefing scheduled this afternoon #Border
+373,2026-10-27 22:50:00,user_88,India,Tamil Nadu,X,hi,positive,1.0,0,0.1,False,False,2835,0,शांति और सफल वार्ता की उम्मीद
+374,2026-10-27 23:09:00,user_212,Other,,X,ur/ar,neutral,0.0,2,0.1,False,False,1572,0,فوجی مشق معمول کے مطابق جاری
+375,2026-10-27 23:23:00,user_78,India,West Bengal,X,en,neutral,0.0,3,0.14,False,False,3969,0,Army conducts routine exercise near the eastern sector today #Border
+376,2026-10-27 23:28:00,user_317,India,,X,ur/ar,neutral,0.0,2,0.1,False,False,585,0,فوجی مشق معمول کے مطابق جاری #Defence
+377,2026-10-27 23:35:00,user_156,India,Telangana,X,en,positive,1.0,0,0.1,False,False,4527,0,"Positive talks, peace process moves forward #Security"
+378,2026-10-27 23:42:00,user_216,China,,X,en,neutral,0.0,6,0.1,False,False,2987,0,Parliament committee discusses defence budget allocation
+379,2026-10-27 23:43:00,user_185,Unknown,,X,en,neutral,0.0,6,0.1,False,False,3464,0,Defence ministry briefing scheduled this afternoon
+380,2026-10-27 23:45:00,user_149,Other,,X,ur/ar,positive,1.0,1,0.1,False,False,548,0,امن مذاکرات کامیاب ہونے کی امید #IndiaArmy
+381,2026-10-28 00:01:00,user_162,India,,X,ur/ar,positive,1.0,1,0.1,False,False,4963,0,امن مذاکرات کامیاب ہونے کی امید #Border
+382,2026-10-28 00:07:00,user_99,India,Delhi,X,en,negative,-1.0,0,0.1,False,False,4249,0,"Shameful failure of intelligence, war like situation"
+383,2026-10-28 00:15:00,user_254,Other,,X,en,neutral,0.0,6,0.1,False,False,1754,0,Parliament committee discusses defence budget allocation
+384,2026-10-28 00:22:00,user_263,China,,X,en,negative,-1.0,0,0.1,False,False,2047,0,"Shameful failure of intelligence, war like situation"
+385,2026-10-28 00:27:00,user_296,India,West Bengal,X,en,positive,1.0,0,0.1,False,False,2871,0,"Great success for the forces, strong response and peace restored"
+386,2026-10-28 00:30:00,user_10,Pakistan,,X,en,negative,-1.0,0,0.16,False,False,511,0,"Ceasefire violation again, civilians scared and killed"
+387,2026-10-28 00:34:00,user_192,Pakistan,,X,en,negative,-1.0,0,0.15,False,False,2745,0,"Attack on convoy leaves several killed, people angry"
+388,2026-10-28 00:35:00,user_150,Other,,X,ur/ar,neutral,0.0,2,0.1,False,False,1934,0,فوجی مشق معمول کے مطابق جاری
+389,2026-10-28 00:58:00,user_104,India,West Bengal,X,en,neutral,0.0,6,0.1,False,False,3529,0,Defence ministry briefing scheduled this afternoon
+390,2026-10-28 01:12:00,user_240,China,,X,en,neutral,0.0,6,0.1,False,False,3596,0,Defence ministry briefing scheduled this afternoon
+391,2026-10-28 01:14:00,user_184,China,,X,en,neutral,0.0,6,0.1,False,False,689,0,Parliament committee discusses defence budget allocation
+392,2026-10-28 01:23:00,user_281,Pakistan,,X,en,neutral,0.0,6,0.1,False,False,2055,0,Defence ministry briefing scheduled this afternoon
+393,2026-10-28 01:30:00,user_250,China,,X,ur/ar,negative,-1.0,5,0.1,False,False,1784,0,سرحد پر حملہ، لوگ خوفزدہ ہیں #Border
+394,2026-10-28 01:45:00,user_111,India,,X,ur/ar,negative,-1.0,5,0.1,False,False,2647,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+395,2026-10-28 01:52:00,user_317,Pakistan,,X,ur/ar,negative,-1.0,5,0.1,False,False,1353,0,سرحد پر حملہ، لوگ خوفزدہ ہیں #IndiaArmy
+396,2026-10-28 02:04:00,user_200,Other,,X,ur/ar,neutral,0.0,2,0.1,False,False,1695,0,فوجی مشق معمول کے مطابق جاری
+397,2026-10-28 02:36:00,user_87,India,West Bengal,X,hi,negative,-1.0,4,0.1,False,False,1791,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा"
+398,2026-10-28 02:43:00,user_262,India,Delhi,X,hi,negative,-1.0,4,0.1,False,False,3797,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा"
+399,2026-10-28 03:07:00,user_15,India,Telangana,X,en,positive,1.0,0,0.1,False,False,4388,0,"Positive talks, peace process moves forward"
+400,2026-10-28 03:12:00,user_21,India,Tamil Nadu,X,ur/ar,neutral,0.0,2,0.1,False,False,3430,0,فوجی مشق معمول کے مطابق جاری
+401,2026-10-28 03:13:00,user_33,Other,,X,en,negative,-1.0,0,0.15,False,False,3012,0,"Attack on convoy leaves several killed, people angry"
+402,2026-10-28 03:14:00,user_204,Pakistan,,X,hi,negative,-1.0,4,0.1,False,False,1565,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा"
+403,2026-10-28 03:21:00,user_310,Pakistan,,X,en,positive,1.0,0,0.1,False,False,3352,0,"Positive talks, peace process moves forward #Border"
+404,2026-10-28 03:30:00,user_83,India,West Bengal,X,ur/ar,neutral,0.0,2,0.1,False,False,3966,0,فوجی مشق معمول کے مطابق جاری
+405,2026-10-28 03:50:00,user_51,India,Delhi,X,hi,positive,1.0,4,0.1,False,False,3333,0,"हमारे सैनिकों पर गर्व है, सलाम #IndiaArmy"
+406,2026-10-28 03:56:00,user_104,India,Telangana,X,en,negative,-1.0,0,0.15,False,False,3845,0,"Attack on convoy leaves several killed, people angry"
+407,2026-10-28 04:09:00,user_182,India,,X,en,positive,1.0,0,0.15,False,False,4813,0,"Our army is a hero, safe borders thanks to them #Border"
+408,2026-10-28 04:27:00,user_134,India,,X,en,negative,-1.0,0,0.16,False,False,286,0,"Ceasefire violation again, civilians scared and killed"
+409,2026-10-28 04:32:00,user_3,Pakistan,,X,en,negative,-1.0,0,0.16,False,False,2392,0,"Ceasefire violation again, civilians scared and killed"
+410,2026-10-28 04:54:00,user_223,India,Telangana,X,en,positive,1.0,0,0.15,False,False,148,0,"Our army is a hero, safe borders thanks to them"
+411,2026-10-28 05:04:00,user_190,China,,X,en,neutral,0.0,6,0.1,False,False,1512,0,Parliament committee discusses defence budget allocation #Border
+412,2026-10-28 05:26:00,user_312,Pakistan,,X,ur/ar,negative,-1.0,5,0.1,False,False,785,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+413,2026-10-28 05:36:00,user_95,India,Delhi,X,en,negative,-1.0,0,0.16,False,False,231,0,"Ceasefire violation again, civilians scared and killed"
+414,2026-10-28 05:48:00,user_158,India,West Bengal,X,ur/ar,negative,-1.0,5,0.1,False,False,1234,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+415,2026-10-28 05:49:00,user_287,Pakistan,,X,en,positive,1.0,3,0.17,False,False,2410,0,"Proud of our soldiers, salute to the brave jawans"
+416,2026-10-28 05:50:00,user_241,India,,X,en,negative,-1.0,0,0.15,False,False,4124,0,"Attack on convoy leaves several killed, people angry"
+417,2026-10-28 06:05:00,user_235,Pakistan,,X,hi,negative,-1.0,4,0.1,False,False,4255,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा"
+418,2026-10-28 06:12:00,user_306,Pakistan,,X,en,neutral,0.0,3,0.15,False,False,502,0,Army conducts routine exercise near the coastal sector today
+419,2026-10-28 06:14:00,user_291,Pakistan,,X,ur/ar,negative,-1.0,5,0.1,False,False,3867,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+420,2026-10-28 06:18:00,user_219,Pakistan,,X,ur/ar,neutral,0.0,2,0.1,False,False,332,0,فوجی مشق معمول کے مطابق جاری
+421,2026-10-28 06:21:00,user_50,Unknown,,X,ur/ar,negative,-1.0,5,0.1,False,False,1595,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+422,2026-10-28 06:29:00,user_62,Unknown,,X,en,negative,-1.0,0,0.1,False,False,1698,0,"Shameful failure of intelligence, war like situation"
+423,2026-10-28 07:11:00,user_296,Pakistan,,X,ur/ar,negative,-1.0,5,0.1,False,False,2260,0,سرحد پر حملہ، لوگ خوفزدہ ہیں #Security
+424,2026-10-28 07:14:00,user_270,India,Delhi,X,ur/ar,positive,1.0,1,0.1,False,False,4028,0,امن مذاکرات کامیاب ہونے کی امید
+425,2026-10-28 07:27:00,user_17,India,Telangana,X,en,negative,-1.0,0,0.16,False,False,3542,0,"Ceasefire violation again, civilians scared and killed"
+426,2026-10-28 07:42:00,user_5,India,,X,ur/ar,negative,-1.0,5,0.1,False,False,308,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+427,2026-10-28 07:49:00,user_146,Unknown,,X,ur/ar,negative,-1.0,5,0.1,False,False,2824,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+428,2026-10-28 07:59:00,user_109,India,Delhi,X,en,positive,1.0,0,0.15,False,False,3835,0,"Our army is a hero, safe borders thanks to them"
+429,2026-10-28 08:00:00,user_63,Unknown,,X,ur/ar,negative,-1.0,5,0.1,False,False,1611,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+430,2026-10-28 08:05:00,user_122,Pakistan,,X,en,positive,1.0,0,0.1,False,False,2353,0,"Great success for the forces, strong response and peace restored"
+431,2026-10-28 08:18:00,user_248,China,,X,ur/ar,neutral,0.0,2,0.1,False,False,1171,0,فوجی مشق معمول کے مطابق جاری
+432,2026-10-28 08:29:00,user_137,India,Delhi,X,en,positive,1.0,0,0.1,False,False,846,0,"Great success for the forces, strong response and peace restored #IndiaArmy"
+433,2026-10-28 08:33:00,user_147,China,,X,en,neutral,0.0,6,0.1,False,False,3637,0,Defence ministry briefing scheduled this afternoon
+434,2026-10-28 08:38:00,user_47,India,Karnataka,X,hi,negative,-1.0,4,0.1,False,False,2452,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा #Defence"
+435,2026-10-28 08:50:00,user_75,Unknown,,X,ur/ar,negative,-1.0,5,0.1,False,False,3367,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+436,2026-10-28 09:02:00,patriot_news_13,China,,X,en,negative,-1.0,0,0.8,True,True,3635,0,"Breaking!!! Army base destroyed and 500 soldiers killed, media hiding truth, share before deleted!! #Breaking"
+437,2026-10-28 09:03:00,patriot_news_4,India,West Bengal,X,en,negative,-1.0,0,0.8,True,True,635,0,BREAKING: army base destroyed 500 soldiers killed!! media is hiding truth. share before they delete #Breaking
+438,2026-10-28 09:03:00,user_111,Pakistan,,X,ur/ar,neutral,0.0,2,0.1,False,False,1684,0,فوجی مشق معمول کے مطابق جاری
+439,2026-10-28 09:06:00,patriot_news_14,India,Delhi,X,en,negative,-1.0,0,0.8,True,True,1255,0,BREAKING: army base destroyed 500 soldiers killed!! media is hiding truth. share before they delete #WarNews
+440,2026-10-28 09:09:00,patriot_news_11,India,,X,en,negative,-1.0,0,0.8,True,True,3992,0,"BREAKING!!! Army base destroyed, 500 soldiers killed, media hiding the truth, share before deleted #Breaking"
+441,2026-10-28 09:11:00,patriot_news_6,India,Karnataka,X,en,negative,-1.0,0,0.8,True,True,2329,0,BREAKING: army base destroyed 500 soldiers killed!! media is hiding truth. share before they delete #Breaking
+442,2026-10-28 09:13:00,patriot_news_0,India,Delhi,X,en,negative,-1.0,0,0.8,True,True,3072,0,BREAKING: army base destroyed 500 soldiers killed!! media is hiding truth. share before they delete #WarNews
+443,2026-10-28 09:17:00,user_95,China,,X,en,positive,1.0,0,0.1,False,False,3052,0,"Positive talks, peace process moves forward"
+444,2026-10-28 09:18:00,patriot_news_7,Unknown,,X,en,negative,-1.0,0,0.8,True,True,1321,0,BREAKING: army base destroyed 500 soldiers killed!! media is hiding truth. share before they delete #Breaking
+445,2026-10-28 09:20:00,patriot_news_8,Pakistan,,X,en,negative,-1.0,0,0.8,True,True,3533,0,"Breaking!!! Army base destroyed and 500 soldiers killed, media hiding truth, share before deleted!! #Breaking"
+446,2026-10-28 09:22:00,patriot_news_5,India,Karnataka,X,en,negative,-1.0,0,0.8,True,True,2555,0,"Breaking!!! Army base destroyed and 500 soldiers killed, media hiding truth, share before deleted!! #Breaking"
+447,2026-10-28 09:23:00,patriot_news_17,India,West Bengal,X,en,negative,-1.0,0,0.8,True,True,3794,0,"BREAKING!!! Army base destroyed, 500 soldiers killed, media hiding the truth, share before deleted #WarNews"
+448,2026-10-28 09:24:00,patriot_news_9,India,West Bengal,X,en,negative,-1.0,0,0.8,True,True,3883,0,BREAKING: army base destroyed 500 soldiers killed!! media is hiding truth. share before they delete #Breaking
+449,2026-10-28 09:25:00,patriot_news_12,Unknown,,X,en,negative,-1.0,0,0.8,True,True,4308,0,BREAKING: army base destroyed 500 soldiers killed!! media is hiding truth. share before they delete #Breaking
+450,2026-10-28 09:32:00,patriot_news_3,India,Delhi,X,en,negative,-1.0,0,0.8,True,True,4440,0,BREAKING: army base destroyed 500 soldiers killed!! media is hiding truth. share before they delete #Breaking
+451,2026-10-28 09:33:00,patriot_news_1,Pakistan,,X,en,negative,-1.0,0,0.8,True,True,1823,0,BREAKING: army base destroyed 500 soldiers killed!! media is hiding truth. share before they delete #WarNews
+452,2026-10-28 09:33:00,patriot_news_15,India,Karnataka,X,en,negative,-1.0,0,0.8,True,True,2946,0,BREAKING: army base destroyed 500 soldiers killed!! media is hiding truth. share before they delete #Breaking
+453,2026-10-28 09:35:00,user_94,China,,X,en,negative,-1.0,0,0.16,False,False,2362,0,"Ceasefire violation again, civilians scared and killed #Defence"
+454,2026-10-28 09:35:00,patriot_news_16,Other,,X,en,negative,-1.0,0,0.8,True,True,2336,0,BREAKING: army base destroyed 500 soldiers killed!! media is hiding truth. share before they delete #Breaking
+455,2026-10-28 09:35:00,patriot_news_10,India,West Bengal,X,en,negative,-1.0,0,0.8,True,True,240,0,BREAKING: army base destroyed 500 soldiers killed!! media is hiding truth. share before they delete #WarNews
+456,2026-10-28 09:37:00,patriot_news_2,India,Tamil Nadu,X,en,negative,-1.0,0,0.8,True,True,3794,0,"BREAKING!!! Army base destroyed, 500 soldiers killed, media hiding the truth, share before deleted #WarNews"
+457,2026-10-28 09:47:00,user_115,India,,X,hi,positive,1.0,4,0.1,False,False,3059,0,"हमारे सैनिकों पर गर्व है, सलाम"
+458,2026-10-28 09:59:00,user_134,India,West Bengal,X,hi,positive,1.0,0,0.1,False,False,2943,0,शांति और सफल वार्ता की उम्मीद
+459,2026-10-28 10:22:00,user_214,India,West Bengal,X,en,neutral,0.0,6,0.1,False,False,2436,0,Defence ministry briefing scheduled this afternoon
+460,2026-10-28 10:41:00,user_142,Unknown,,X,en,neutral,0.0,6,0.1,False,False,1987,0,Parliament committee discusses defence budget allocation #Security
+461,2026-10-28 11:04:00,user_92,India,Karnataka,X,en,negative,-1.0,0,0.14,False,False,4256,0,"Attack on convoy leaves several killed, people angry #Border"
+462,2026-10-28 11:05:00,user_104,India,West Bengal,X,ur/ar,negative,-1.0,5,0.1,False,False,82,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+463,2026-10-28 11:10:00,user_276,Pakistan,,X,ur/ar,negative,-1.0,5,0.1,False,False,117,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+464,2026-10-28 11:33:00,user_311,India,West Bengal,X,en,positive,1.0,0,0.15,False,False,1077,0,"Our army is a hero, safe borders thanks to them"
+465,2026-10-28 11:37:00,user_245,India,,X,ur/ar,negative,-1.0,5,0.1,False,False,4348,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+466,2026-10-28 11:39:00,user_14,Unknown,,X,en,positive,1.0,0,0.15,False,False,1221,0,"Our army is a hero, safe borders thanks to them"
+467,2026-10-28 11:40:00,user_241,India,Tamil Nadu,X,ur/ar,negative,-1.0,5,0.1,False,False,4389,0,سرحد پر حملہ، لوگ خوفزدہ ہیں #Defence
+468,2026-10-28 11:43:00,user_117,Pakistan,,X,ur/ar,neutral,0.0,2,0.1,False,False,170,0,فوجی مشق معمول کے مطابق جاری
+469,2026-10-28 12:01:00,user_300,Pakistan,,X,en,neutral,0.0,0,0.1,False,False,1357,0,"Joint military drill begins, officials say it is routine"
+470,2026-10-28 12:04:00,user_138,India,West Bengal,X,en,negative,-1.0,0,0.16,False,False,411,0,"Ceasefire violation again, civilians scared and killed"
+471,2026-10-28 12:07:00,user_159,Pakistan,,X,hi,negative,-1.0,4,0.1,False,False,15,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा #Security"
+472,2026-10-28 12:12:00,user_187,Pakistan,,X,ur/ar,positive,1.0,1,0.1,False,False,1670,0,امن مذاکرات کامیاب ہونے کی امید
+473,2026-10-28 12:34:00,user_119,India,Telangana,X,en,negative,-1.0,0,0.15,False,False,3815,0,"Attack on convoy leaves several killed, people angry"
+474,2026-10-28 12:42:00,user_230,India,Karnataka,X,ur/ar,negative,-1.0,5,0.1,False,False,2907,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+475,2026-10-28 13:08:00,user_75,China,,X,en,negative,-1.0,0,0.15,False,False,2972,0,"Attack on convoy leaves several killed, people angry"
+476,2026-10-28 13:16:00,user_188,India,,X,en,negative,-1.0,0,0.16,False,False,4527,0,"Ceasefire violation again, civilians scared and killed"
+477,2026-10-28 13:42:00,user_165,China,,X,en,negative,-1.0,3,0.1,False,False,287,0,"Terror attack condemned, fear in the region"
+478,2026-10-28 13:46:00,user_191,India,Tamil Nadu,X,en,positive,1.0,0,0.15,False,False,4015,0,"Our army is a hero, safe borders thanks to them #Security"
+479,2026-10-28 14:00:00,user_3,Pakistan,,X,ur/ar,positive,1.0,1,0.1,False,False,1515,0,امن مذاکرات کامیاب ہونے کی امید
+480,2026-10-28 14:04:00,user_241,Pakistan,,X,en,negative,-1.0,0,0.16,False,False,1955,0,"Ceasefire violation again, civilians scared and killed"
+481,2026-10-28 14:05:00,user_267,India,West Bengal,X,ur/ar,negative,-1.0,5,0.1,False,False,108,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+482,2026-10-28 14:09:00,user_263,Pakistan,,X,en,negative,-1.0,0,0.1,False,False,2267,0,"Shameful failure of intelligence, war like situation #Border"
+483,2026-10-28 14:14:00,user_249,China,,X,ur/ar,neutral,0.0,2,0.1,False,False,3541,0,فوجی مشق معمول کے مطابق جاری
+484,2026-10-28 14:31:00,user_285,Pakistan,,X,en,positive,1.0,0,0.1,False,False,2771,0,"Positive talks, peace process moves forward #Security"
+485,2026-10-28 14:36:00,user_212,China,,X,hi,positive,1.0,4,0.1,False,False,419,0,"हमारे सैनिकों पर गर्व है, सलाम"
+486,2026-10-28 14:46:00,user_1,India,,X,en,positive,1.0,0,0.1,False,False,4943,0,"Great success for the forces, strong response and peace restored"
+487,2026-10-28 14:48:00,user_88,Pakistan,,X,hi,neutral,0.0,0,0.1,False,False,4472,0,सेना का अभ्यास आज सामान्य रूप से जारी
+488,2026-10-28 14:53:00,user_299,India,Telangana,X,ur/ar,negative,-1.0,5,0.1,False,False,768,0,سرحد پر حملہ، لوگ خوفزدہ ہیں #Security
+489,2026-10-28 15:11:00,user_11,India,Karnataka,X,en,neutral,0.0,6,0.1,False,False,3686,0,Parliament committee discusses defence budget allocation #Border
+490,2026-10-28 15:29:00,user_10,Pakistan,,X,en,neutral,0.0,3,0.1,False,False,2552,0,Weather delays flights near the border region
+491,2026-10-28 15:36:00,user_185,Pakistan,,X,en,neutral,0.0,0,0.1,False,False,2144,0,"Joint military drill begins, officials say it is routine"
+492,2026-10-28 15:47:00,user_120,Other,,X,en,negative,-1.0,0,0.16,False,False,2025,0,"Ceasefire violation again, civilians scared and killed"
+493,2026-10-28 16:04:00,user_47,India,,X,en,negative,-1.0,0,0.1,False,False,4084,0,"Shameful failure of intelligence, war like situation"
+494,2026-10-28 16:54:00,user_189,Pakistan,,X,en,neutral,0.0,0,0.1,False,False,3426,0,"Joint military drill begins, officials say it is routine"
+495,2026-10-28 17:07:00,user_148,India,Delhi,X,en,neutral,0.0,6,0.1,False,False,2132,0,Parliament committee discusses defence budget allocation #Defence
+496,2026-10-28 17:09:00,user_270,India,Telangana,X,en,negative,-1.0,0,0.14,False,False,2781,0,"Attack on convoy leaves several killed, people angry #Border"
+497,2026-10-28 17:10:00,user_163,Pakistan,,X,en,negative,-1.0,0,0.15,False,False,360,0,"Attack on convoy leaves several killed, people angry"
+498,2026-10-28 17:17:00,user_273,India,West Bengal,X,ur/ar,negative,-1.0,5,0.1,False,False,240,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+499,2026-10-28 17:20:00,user_198,India,West Bengal,X,en,negative,-1.0,3,0.1,False,False,3518,0,"Terror attack condemned, fear in the region #Security"
+500,2026-10-28 17:31:00,user_95,Pakistan,,X,ur/ar,negative,-1.0,5,0.1,False,False,305,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+501,2026-10-28 17:33:00,user_39,India,,X,en,positive,1.0,3,0.17,False,False,1356,0,"Proud of our soldiers, salute to the brave jawans"
+502,2026-10-28 17:42:00,user_264,India,,X,en,positive,1.0,3,0.17,False,False,4618,0,"Proud of our soldiers, salute to the brave jawans #Security"
+503,2026-10-28 17:55:00,user_57,India,Karnataka,X,en,positive,1.0,0,0.1,False,False,2026,0,"Great success for the forces, strong response and peace restored"
+504,2026-10-28 18:03:00,user_311,India,West Bengal,X,hi,neutral,0.0,0,0.1,False,False,1111,0,सेना का अभ्यास आज सामान्य रूप से जारी #Security
+505,2026-10-28 18:29:00,user_46,Pakistan,,X,en,neutral,0.0,6,0.1,False,False,3378,0,Parliament committee discusses defence budget allocation #Security
+506,2026-10-28 18:36:00,user_103,India,Karnataka,X,ur/ar,neutral,0.0,2,0.1,False,False,4168,0,فوجی مشق معمول کے مطابق جاری
+507,2026-10-28 18:46:00,user_30,India,,X,en,negative,-1.0,0,0.1,False,False,2764,0,"Shameful failure of intelligence, war like situation"
+508,2026-10-28 18:49:00,user_120,Unknown,,X,en,negative,-1.0,3,0.1,False,False,4520,0,"Terror attack condemned, fear in the region"
+509,2026-10-28 18:49:00,user_173,Unknown,,X,ur/ar,negative,-1.0,5,0.1,False,False,1095,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+510,2026-10-28 19:10:00,user_183,India,,X,en,negative,-1.0,0,0.15,False,False,2290,0,"Attack on convoy leaves several killed, people angry"
+511,2026-10-28 19:11:00,user_233,China,,X,ur/ar,neutral,0.0,2,0.1,False,False,136,0,فوجی مشق معمول کے مطابق جاری
+512,2026-10-28 19:27:00,user_194,India,Karnataka,X,ur/ar,negative,-1.0,5,0.1,False,False,1382,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+513,2026-10-28 19:31:00,user_199,India,,X,en,negative,-1.0,0,0.16,False,False,371,0,"Ceasefire violation again, civilians scared and killed #Border"
+514,2026-10-28 19:49:00,user_122,India,Karnataka,X,hi,positive,1.0,4,0.1,False,False,139,0,"हमारे सैनिकों पर गर्व है, सलाम #IndiaArmy"
+515,2026-10-28 19:55:00,user_31,India,West Bengal,X,en,negative,-1.0,0,0.16,False,False,3979,0,"Ceasefire violation again, civilians scared and killed"
+516,2026-10-28 20:11:00,user_274,India,,X,en,negative,-1.0,0,0.1,False,False,495,0,"Shameful failure of intelligence, war like situation"
+517,2026-10-28 20:15:00,user_96,China,,X,en,neutral,0.0,6,0.1,False,False,3768,0,Parliament committee discusses defence budget allocation #Border
+518,2026-10-28 20:25:00,user_132,China,,X,hi,negative,-1.0,4,0.1,False,False,3829,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा"
+519,2026-10-28 20:31:00,user_316,India,Delhi,X,en,negative,-1.0,0,0.1,False,False,4269,0,"Shameful failure of intelligence, war like situation"
+520,2026-10-28 20:35:00,user_161,India,Karnataka,X,ur/ar,negative,-1.0,5,0.1,False,False,4936,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+521,2026-10-28 21:00:00,user_182,India,West Bengal,X,en,negative,-1.0,0,0.1,False,False,4220,0,"Shameful failure of intelligence, war like situation"
+522,2026-10-28 21:07:00,user_21,China,,X,hi,positive,1.0,0,0.1,False,False,3394,0,शांति और सफल वार्ता की उम्मीद
+523,2026-10-28 21:34:00,user_40,Pakistan,,X,ur/ar,negative,-1.0,5,0.1,False,False,3039,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+524,2026-10-28 21:35:00,user_310,Pakistan,,X,en,neutral,0.0,6,0.1,False,False,4246,0,Defence ministry briefing scheduled this afternoon
+525,2026-10-28 21:58:00,user_307,India,Telangana,X,ur/ar,negative,-1.0,5,0.1,False,False,1399,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+526,2026-10-28 22:05:00,user_220,India,Delhi,X,en,negative,-1.0,0,0.1,False,False,2406,0,"Shameful failure of intelligence, war like situation #Security"
+527,2026-10-28 22:06:00,user_231,Pakistan,,X,ur/ar,negative,-1.0,5,0.1,False,False,1498,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+528,2026-10-28 22:12:00,user_113,India,Delhi,X,en,negative,-1.0,0,0.16,False,False,604,0,"Ceasefire violation again, civilians scared and killed"
+529,2026-10-28 22:33:00,user_187,India,Telangana,X,en,negative,-1.0,3,0.1,False,False,1143,0,"Terror attack condemned, fear in the region"
+530,2026-10-28 22:46:00,user_59,India,,X,en,positive,1.0,0,0.1,False,False,4481,0,"Positive talks, peace process moves forward"
+531,2026-10-28 23:02:00,user_153,Unknown,,X,en,negative,-1.0,3,0.1,False,False,832,0,"Terror attack condemned, fear in the region #Security"
+532,2026-10-28 23:52:00,user_165,India,Tamil Nadu,X,en,negative,-1.0,0,0.14,False,False,3343,0,"Attack on convoy leaves several killed, people angry #Border"
+533,2026-10-29 00:02:00,user_17,India,Tamil Nadu,X,en,negative,-1.0,3,0.1,False,False,2882,0,"Terror attack condemned, fear in the region"
+534,2026-10-29 00:04:00,user_132,India,West Bengal,X,en,negative,-1.0,0,0.14,False,False,3638,0,"Attack on convoy leaves several killed, people angry #IndiaArmy"
+535,2026-10-29 00:09:00,user_121,India,Tamil Nadu,X,en,neutral,0.0,3,0.1,False,False,3726,0,Weather delays flights near the border region
+536,2026-10-29 00:12:00,user_269,India,West Bengal,X,en,positive,1.0,3,0.17,False,False,2280,0,"Proud of our soldiers, salute to the brave jawans #IndiaArmy"
+537,2026-10-29 00:20:00,user_154,China,,X,en,negative,-1.0,0,0.15,False,False,2093,0,"Attack on convoy leaves several killed, people angry"
+538,2026-10-29 00:25:00,user_151,Pakistan,,X,ur/ar,negative,-1.0,5,0.1,False,False,3707,0,سرحد پر حملہ، لوگ خوفزدہ ہیں #Defence
+539,2026-10-29 00:37:00,user_87,India,Tamil Nadu,X,en,negative,-1.0,3,0.1,False,False,2318,0,"Terror attack condemned, fear in the region"
+540,2026-10-29 00:50:00,user_222,India,,X,en,positive,1.0,0,0.1,False,False,4340,0,"Great success for the forces, strong response and peace restored"
+541,2026-10-29 00:53:00,user_178,Pakistan,,X,ur/ar,negative,-1.0,5,0.1,False,False,1272,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+542,2026-10-29 00:53:00,user_122,Other,,X,en,positive,1.0,3,0.17,False,False,4728,0,"Proud of our soldiers, salute to the brave jawans"
+543,2026-10-29 00:54:00,user_63,Pakistan,,X,en,negative,-1.0,0,0.15,False,False,2579,0,"Attack on convoy leaves several killed, people angry"
+544,2026-10-29 00:57:00,user_184,Pakistan,,X,en,negative,-1.0,0,0.16,False,False,1144,0,"Ceasefire violation again, civilians scared and killed #IndiaArmy"
+545,2026-10-29 01:01:00,user_227,India,Delhi,X,hi,negative,-1.0,4,0.1,False,False,4276,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा"
+546,2026-10-29 01:15:00,user_101,India,,X,ur/ar,negative,-1.0,5,0.1,False,False,309,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+547,2026-10-29 01:25:00,user_271,Other,,X,en,neutral,0.0,6,0.1,False,False,3374,0,Defence ministry briefing scheduled this afternoon
+548,2026-10-29 01:44:00,user_135,India,Karnataka,X,en,positive,1.0,0,0.15,False,False,3977,0,"Our army is a hero, safe borders thanks to them #Defence"
+549,2026-10-29 01:52:00,user_104,India,Delhi,X,hi,negative,-1.0,4,0.1,False,False,1888,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा #Border"
+550,2026-10-29 02:14:00,user_299,India,Telangana,X,hi,positive,1.0,4,0.1,False,False,3759,0,"हमारे सैनिकों पर गर्व है, सलाम #Border"
+551,2026-10-29 02:31:00,user_48,India,Telangana,X,en,positive,1.0,0,0.1,False,False,4796,0,"Great success for the forces, strong response and peace restored"
+552,2026-10-29 03:00:00,user_80,India,,X,en,positive,1.0,0,0.1,False,False,2239,0,"Positive talks, peace process moves forward"
+553,2026-10-29 03:10:00,user_109,India,Delhi,X,en,neutral,0.0,3,0.1,False,False,250,0,Weather delays flights near the border region
+554,2026-10-29 03:10:00,user_110,India,,X,en,negative,-1.0,0,0.1,False,False,2592,0,"Shameful failure of intelligence, war like situation #Security"
+555,2026-10-29 03:25:00,user_63,Other,,X,en,positive,1.0,0,0.15,False,False,4706,0,"Our army is a hero, safe borders thanks to them"
+556,2026-10-29 03:52:00,user_306,India,Delhi,X,en,negative,-1.0,0,0.14,False,False,4896,0,"Attack on convoy leaves several killed, people angry #Defence"
+557,2026-10-29 03:54:00,user_68,India,,X,en,negative,-1.0,0,0.14,False,False,4503,0,"Attack on convoy leaves several killed, people angry #Defence"
+558,2026-10-29 03:59:00,user_110,Pakistan,,X,en,neutral,0.0,3,0.1,False,False,950,0,Weather delays flights near the border region #IndiaArmy
+559,2026-10-29 04:02:00,user_70,Pakistan,,X,en,negative,-1.0,3,0.1,False,False,3994,0,"Terror attack condemned, fear in the region"
+560,2026-10-29 04:07:00,user_210,India,,X,hi,neutral,0.0,0,0.1,False,False,1025,0,सेना का अभ्यास आज सामान्य रूप से जारी #Defence
+561,2026-10-29 04:14:00,user_246,India,West Bengal,X,en,neutral,0.0,0,0.1,False,False,2292,0,"Joint military drill begins, officials say it is routine"
+562,2026-10-29 04:29:00,user_137,India,,X,hi,positive,1.0,4,0.1,False,False,2192,0,"हमारे सैनिकों पर गर्व है, सलाम"
+563,2026-10-29 04:35:00,user_82,China,,X,hi,negative,-1.0,4,0.1,False,False,839,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा #Border"
+564,2026-10-29 04:48:00,user_185,Other,,X,ur/ar,positive,1.0,1,0.1,False,False,3565,0,امن مذاکرات کامیاب ہونے کی امید
+565,2026-10-29 04:49:00,user_236,Pakistan,,X,hi,negative,-1.0,4,0.1,False,False,621,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा"
+566,2026-10-29 05:04:00,user_271,Pakistan,,X,hi,negative,-1.0,4,0.1,False,False,3041,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा"
+567,2026-10-29 05:36:00,user_56,China,,X,en,negative,-1.0,0,0.1,False,False,275,0,"Shameful failure of intelligence, war like situation"
+568,2026-10-29 05:44:00,user_195,India,West Bengal,X,ur/ar,negative,-1.0,5,0.1,False,False,4217,0,سرحد پر حملہ، لوگ خوفزدہ ہیں #Border
+569,2026-10-29 05:52:00,user_81,Pakistan,,X,ur/ar,positive,1.0,1,0.1,False,False,3989,0,امن مذاکرات کامیاب ہونے کی امید
+570,2026-10-29 06:01:00,user_256,India,West Bengal,X,ur/ar,neutral,0.0,2,0.1,False,False,3668,0,فوجی مشق معمول کے مطابق جاری
+571,2026-10-29 06:08:00,user_47,Pakistan,,X,en,negative,-1.0,0,0.16,False,False,1598,0,"Ceasefire violation again, civilians scared and killed #Defence"
+572,2026-10-29 06:09:00,user_136,Other,,X,ur/ar,negative,-1.0,5,0.1,False,False,2550,0,سرحد پر حملہ، لوگ خوفزدہ ہیں #IndiaArmy
+573,2026-10-29 06:25:00,user_203,India,,X,ur/ar,negative,-1.0,5,0.1,False,False,2832,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+574,2026-10-29 06:25:00,user_106,India,Karnataka,X,ur/ar,negative,-1.0,5,0.1,False,False,1483,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+575,2026-10-29 06:34:00,user_37,India,Tamil Nadu,X,hi,negative,-1.0,4,0.1,False,False,3140,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा"
+576,2026-10-29 06:47:00,user_54,India,Telangana,X,en,positive,1.0,0,0.1,False,False,3248,0,"Positive talks, peace process moves forward #Defence"
+577,2026-10-29 07:10:00,user_135,Other,,X,en,neutral,0.0,0,0.1,False,False,2590,0,"Joint military drill begins, officials say it is routine"
+578,2026-10-29 07:35:00,user_109,India,Karnataka,X,en,neutral,0.0,3,0.15,False,False,403,0,Army conducts routine exercise near the eastern sector today
+579,2026-10-29 07:36:00,user_101,India,Delhi,X,en,neutral,0.0,3,0.1,False,False,2219,0,Weather delays flights near the border region #Defence
+580,2026-10-29 07:46:00,user_114,India,Tamil Nadu,X,en,neutral,0.0,0,0.1,False,False,1754,0,"Joint military drill begins, officials say it is routine #IndiaArmy"
+581,2026-10-29 07:50:00,user_6,Pakistan,,X,en,positive,1.0,0,0.1,False,False,310,0,"Positive talks, peace process moves forward"
+582,2026-10-29 07:54:00,user_53,India,Karnataka,X,en,negative,-1.0,0,0.14,False,False,2594,0,"Attack on convoy leaves several killed, people angry #Border"
+583,2026-10-29 08:08:00,user_32,India,Delhi,X,ur/ar,neutral,0.0,2,0.1,False,False,2600,0,فوجی مشق معمول کے مطابق جاری #Defence
+584,2026-10-29 08:25:00,user_301,Pakistan,,X,en,positive,1.0,0,0.1,False,False,3215,0,"Positive talks, peace process moves forward #IndiaArmy"
+585,2026-10-29 08:53:00,user_108,India,Karnataka,X,en,negative,-1.0,0,0.16,False,False,4548,0,"Ceasefire violation again, civilians scared and killed"
+586,2026-10-29 09:02:00,user_134,Pakistan,,X,en,negative,-1.0,0,0.15,False,False,2309,0,"Attack on convoy leaves several killed, people angry"
+587,2026-10-29 09:05:00,user_198,Pakistan,,X,en,neutral,0.0,3,0.15,False,False,291,0,Army conducts routine exercise near the western sector today
+588,2026-10-29 09:08:00,user_281,Pakistan,,X,hi,negative,-1.0,4,0.1,False,False,1077,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा"
+589,2026-10-29 09:12:00,user_299,Other,,X,en,negative,-1.0,0,0.1,False,False,3419,0,"Shameful failure of intelligence, war like situation #IndiaArmy"
+590,2026-10-29 09:23:00,user_247,India,Karnataka,X,en,negative,-1.0,0,0.16,False,False,2049,0,"Ceasefire violation again, civilians scared and killed #Defence"
+591,2026-10-29 09:35:00,user_80,Pakistan,,X,en,negative,-1.0,0,0.16,False,False,3386,0,"Ceasefire violation again, civilians scared and killed #Border"
+592,2026-10-29 09:40:00,user_126,Unknown,,X,en,positive,1.0,0,0.1,False,False,649,0,"Positive talks, peace process moves forward #Defence"
+593,2026-10-29 09:53:00,user_61,Unknown,,X,en,positive,1.0,0,0.1,False,False,4056,0,"Great success for the forces, strong response and peace restored"
+594,2026-10-29 09:58:00,user_307,India,Karnataka,X,en,negative,-1.0,0,0.14,False,False,1882,0,"Attack on convoy leaves several killed, people angry #Border"
+595,2026-10-29 10:01:00,user_318,Pakistan,,X,en,negative,-1.0,3,0.1,False,False,1638,0,"Terror attack condemned, fear in the region"
+596,2026-10-29 10:08:00,user_39,Pakistan,,X,en,negative,-1.0,3,0.1,False,False,651,0,"Terror attack condemned, fear in the region"
+597,2026-10-29 10:14:00,user_311,Pakistan,,X,ur/ar,positive,1.0,1,0.1,False,False,4311,0,امن مذاکرات کامیاب ہونے کی امید #Security
+598,2026-10-29 10:25:00,user_253,Pakistan,,X,hi,negative,-1.0,4,0.1,False,False,943,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा"
+599,2026-10-29 10:29:00,user_247,India,Karnataka,X,ur/ar,positive,1.0,1,0.1,False,False,1012,0,امن مذاکرات کامیاب ہونے کی امید
+600,2026-10-29 11:01:00,user_45,India,West Bengal,X,hi,positive,1.0,0,0.1,False,False,43,0,शांति और सफल वार्ता की उम्मीद
+601,2026-10-29 11:02:00,user_162,China,,X,hi,negative,-1.0,4,0.1,False,False,2311,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा"
+602,2026-10-29 11:06:00,user_98,India,West Bengal,X,ur/ar,positive,1.0,1,0.1,False,False,568,0,امن مذاکرات کامیاب ہونے کی امید
+603,2026-10-29 11:19:00,user_287,Unknown,,X,hi,negative,-1.0,4,0.1,False,False,3532,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा"
+604,2026-10-29 11:46:00,user_273,India,West Bengal,X,ur/ar,negative,-1.0,5,0.1,False,False,2192,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+605,2026-10-29 11:51:00,user_209,Pakistan,,X,ur/ar,neutral,0.0,2,0.1,False,False,3955,0,فوجی مشق معمول کے مطابق جاری
+606,2026-10-29 11:52:00,user_179,India,Tamil Nadu,X,en,positive,1.0,0,0.15,False,False,3782,0,"Our army is a hero, safe borders thanks to them"
+607,2026-10-29 11:54:00,user_229,Pakistan,,X,en,negative,-1.0,0,0.16,False,False,2194,0,"Ceasefire violation again, civilians scared and killed"
+608,2026-10-29 11:55:00,user_68,Pakistan,,X,en,negative,-1.0,0,0.16,False,False,2370,0,"Ceasefire violation again, civilians scared and killed #Border"
+609,2026-10-29 12:01:00,user_149,Unknown,,X,en,neutral,0.0,6,0.1,False,False,4473,0,Defence ministry briefing scheduled this afternoon
+610,2026-10-29 12:10:00,user_22,India,Telangana,X,hi,neutral,0.0,0,0.1,False,False,4583,0,सेना का अभ्यास आज सामान्य रूप से जारी
+611,2026-10-29 12:23:00,user_40,Unknown,,X,ur/ar,negative,-1.0,5,0.1,False,False,386,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+612,2026-10-29 12:37:00,user_141,Unknown,,X,ur/ar,negative,-1.0,5,0.1,False,False,1430,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+613,2026-10-29 12:40:00,user_113,India,Karnataka,X,hi,positive,1.0,4,0.1,False,False,1932,0,"हमारे सैनिकों पर गर्व है, सलाम"
+614,2026-10-29 12:43:00,user_30,India,West Bengal,X,en,negative,-1.0,3,0.1,False,False,3986,0,"Terror attack condemned, fear in the region #Defence"
+615,2026-10-29 12:51:00,user_243,India,,X,en,positive,1.0,0,0.15,False,False,1376,0,"Our army is a hero, safe borders thanks to them"
+616,2026-10-29 13:54:00,user_181,Pakistan,,X,ur/ar,negative,-1.0,5,0.1,False,False,1181,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+617,2026-10-29 14:07:00,user_167,Pakistan,,X,en,negative,-1.0,3,0.1,False,False,1227,0,"Terror attack condemned, fear in the region"
+618,2026-10-29 14:15:00,user_40,Unknown,,X,hi,negative,-1.0,4,0.1,False,False,1457,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा #Border"
+619,2026-10-29 14:32:00,user_237,India,,X,en,negative,-1.0,0,0.15,False,False,3828,0,"Attack on convoy leaves several killed, people angry"
+620,2026-10-29 14:35:00,user_276,India,West Bengal,X,en,neutral,0.0,6,0.1,False,False,3257,0,Defence ministry briefing scheduled this afternoon
+621,2026-10-29 14:42:00,user_298,India,Delhi,X,en,neutral,0.0,6,0.1,False,False,69,0,Defence ministry briefing scheduled this afternoon
+622,2026-10-29 14:44:00,user_247,Unknown,,X,ur/ar,negative,-1.0,5,0.1,False,False,1165,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+623,2026-10-29 14:46:00,user_150,Other,,X,en,positive,1.0,0,0.1,False,False,3209,0,"Great success for the forces, strong response and peace restored"
+624,2026-10-29 14:51:00,user_26,Other,,X,en,neutral,0.0,6,0.1,False,False,447,0,Parliament committee discusses defence budget allocation
+625,2026-10-29 14:54:00,user_177,India,Delhi,X,hi,positive,1.0,4,0.1,False,False,1476,0,"हमारे सैनिकों पर गर्व है, सलाम #Border"
+626,2026-10-29 15:10:00,user_185,Pakistan,,X,ur/ar,negative,-1.0,5,0.1,False,False,1443,0,سرحد پر حملہ، لوگ خوفزدہ ہیں #Border
+627,2026-10-29 15:19:00,user_4,China,,X,en,negative,-1.0,0,0.14,False,False,2547,0,"Attack on convoy leaves several killed, people angry #IndiaArmy"
+628,2026-10-29 15:24:00,user_178,India,Telangana,X,ur/ar,negative,-1.0,5,0.1,False,False,1553,0,سرحد پر حملہ، لوگ خوفزدہ ہیں #Defence
+629,2026-10-29 15:25:00,user_54,Other,,X,hi,positive,1.0,0,0.1,False,False,1071,0,शांति और सफल वार्ता की उम्मीद
+630,2026-10-29 15:36:00,user_170,India,,X,en,neutral,0.0,3,0.1,False,False,1202,0,Weather delays flights near the border region #Security
+631,2026-10-29 16:07:00,user_141,India,Telangana,X,en,negative,-1.0,0,0.1,False,False,399,0,"Shameful failure of intelligence, war like situation #Defence"
+632,2026-10-29 16:54:00,user_279,India,,X,en,negative,-1.0,0,0.1,False,False,4292,0,"Shameful failure of intelligence, war like situation #IndiaArmy"
+633,2026-10-29 16:58:00,user_121,India,West Bengal,X,ur/ar,negative,-1.0,5,0.1,False,False,1245,0,سرحد پر حملہ، لوگ خوفزدہ ہیں #Defence
+634,2026-10-29 16:58:00,user_220,India,West Bengal,X,ur/ar,positive,1.0,1,0.1,False,False,4380,0,امن مذاکرات کامیاب ہونے کی امید
+635,2026-10-29 17:06:00,user_263,Unknown,,X,en,negative,-1.0,0,0.15,False,False,1755,0,"Attack on convoy leaves several killed, people angry"
+636,2026-10-29 17:12:00,user_278,Other,,X,en,negative,-1.0,3,0.1,False,False,3132,0,"Terror attack condemned, fear in the region #Security"
+637,2026-10-29 17:19:00,user_66,Pakistan,,X,ur/ar,negative,-1.0,5,0.1,False,False,877,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+638,2026-10-29 17:20:00,user_174,Pakistan,,X,en,negative,-1.0,0,0.16,False,False,3549,0,"Ceasefire violation again, civilians scared and killed"
+639,2026-10-29 17:34:00,user_52,India,,X,hi,negative,-1.0,4,0.1,False,False,3193,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा"
+640,2026-10-29 17:38:00,user_8,India,Delhi,X,ur/ar,negative,-1.0,5,0.1,False,False,1489,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+641,2026-10-29 17:50:00,user_96,China,,X,hi,negative,-1.0,4,0.1,False,False,215,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा"
+642,2026-10-29 18:02:00,user_300,India,Karnataka,X,en,negative,-1.0,0,0.16,False,False,2300,0,"Ceasefire violation again, civilians scared and killed"
+643,2026-10-29 18:09:00,user_193,India,Delhi,X,hi,negative,-1.0,4,0.1,False,False,855,0,"सीमा पर हमला, लोग डरे हुए हैं, निंदा"
+644,2026-10-29 18:10:00,user_244,Pakistan,,X,en,negative,-1.0,3,0.1,False,False,1075,0,"Terror attack condemned, fear in the region"
+645,2026-10-29 18:17:00,user_287,India,Telangana,X,en,neutral,0.0,3,0.15,False,False,942,0,Army conducts routine exercise near the western sector today #Defence
+646,2026-10-29 18:55:00,user_169,India,Tamil Nadu,X,ur/ar,positive,1.0,1,0.1,False,False,1189,0,امن مذاکرات کامیاب ہونے کی امید
+647,2026-10-29 19:05:00,user_13,India,Delhi,X,hi,positive,1.0,4,0.1,False,False,2416,0,"हमारे सैनिकों पर गर्व है, सलाम"
+648,2026-10-29 19:36:00,user_21,India,West Bengal,X,ur/ar,negative,-1.0,5,0.1,False,False,1039,0,سرحد پر حملہ، لوگ خوفزدہ ہیں #Border
+649,2026-10-29 19:39:00,user_211,India,Delhi,X,en,positive,1.0,3,0.17,False,False,3142,0,"Proud of our soldiers, salute to the brave jawans"
+650,2026-10-29 19:44:00,user_310,Other,,X,en,positive,1.0,0,0.15,False,False,2887,0,"Our army is a hero, safe borders thanks to them"
+651,2026-10-29 19:48:00,user_160,China,,X,en,negative,-1.0,0,0.14,False,False,4945,0,"Attack on convoy leaves several killed, people angry #IndiaArmy"
+652,2026-10-29 19:50:00,user_65,China,,X,ur/ar,neutral,0.0,2,0.1,False,False,630,0,فوجی مشق معمول کے مطابق جاری #Security
+653,2026-10-29 19:55:00,user_189,Unknown,,X,en,negative,-1.0,0,0.16,False,False,1572,0,"Ceasefire violation again, civilians scared and killed"
+654,2026-10-29 20:19:00,user_309,India,,X,en,negative,-1.0,0,0.16,False,False,60,0,"Ceasefire violation again, civilians scared and killed"
+655,2026-10-29 20:24:00,user_129,Pakistan,,X,ur/ar,negative,-1.0,5,0.1,False,False,3038,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+656,2026-10-29 20:54:00,user_3,Other,,X,ur/ar,negative,-1.0,5,0.1,False,False,1167,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+657,2026-10-29 21:12:00,user_125,Pakistan,,X,ur/ar,negative,-1.0,5,0.1,False,False,3918,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+658,2026-10-29 21:37:00,user_157,India,Telangana,X,en,positive,1.0,0,0.1,False,False,2014,0,"Positive talks, peace process moves forward #IndiaArmy"
+659,2026-10-29 21:58:00,user_291,India,,X,ur/ar,negative,-1.0,5,0.1,False,False,526,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+660,2026-10-29 21:59:00,user_227,India,Delhi,X,en,negative,-1.0,0,0.1,False,False,2903,0,"Shameful failure of intelligence, war like situation #IndiaArmy"
+661,2026-10-29 22:22:00,user_300,China,,X,en,positive,1.0,0,0.1,False,False,4473,0,"Positive talks, peace process moves forward #Defence"
+662,2026-10-29 22:28:00,user_18,India,Tamil Nadu,X,ur/ar,negative,-1.0,5,0.1,False,False,3973,0,سرحد پر حملہ، لوگ خوفزدہ ہیں #IndiaArmy
+663,2026-10-29 22:32:00,user_149,China,,X,en,negative,-1.0,0,0.16,False,False,850,0,"Ceasefire violation again, civilians scared and killed"
+664,2026-10-29 22:55:00,user_257,China,,X,ur/ar,negative,-1.0,5,0.1,False,False,2566,0,سرحد پر حملہ، لوگ خوفزدہ ہیں
+665,2026-10-29 23:11:00,user_64,Pakistan,,X,en,negative,-1.0,0,0.1,False,False,3872,0,"Shameful failure of intelligence, war like situation #Border"
+666,2026-10-29 23:31:00,user_139,Pakistan,,X,en,negative,-1.0,0,0.14,False,False,174,0,"Attack on convoy leaves several killed, people angry #IndiaArmy"
+667,2026-10-30 00:00:00,user_169,India,Karnataka,X,hi,positive,1.0,4,0.1,False,False,2829,0,"हमारे सैनिकों पर गर्व है, सलाम #IndiaArmy"

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OSINT Monitor – Military &amp; Security Discourse</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+:root{--bg:#0b1118;--panel:#121b26;--panel2:#17222f;--line:#243245;--text:#e6edf5;--muted:#8da0b6;--accent:#4aa3ff;
+--red:#ef4444;--amber:#f59e0b;--green:#22c55e;--grey:#94a3b8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.45 "Segoe UI",system-ui,Arial,sans-serif}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:14px 22px;border-bottom:1px solid var(--line);background:#0e1620;position:sticky;top:0;z-index:5}
+h1{font-size:18px;margin:0;letter-spacing:.3px}
+h1 small{display:block;font-weight:400;color:var(--muted);font-size:12px;letter-spacing:0}
+.badge{padding:3px 10px;border-radius:99px;font-size:11px;font-weight:700;letter-spacing:.6px}
+.demo{background:#5b3a00;color:#ffd27a;border:1px solid #a86b00}
+.live{background:#0d3d22;color:#7ef0a8;border:1px solid #1b7a46}
+main{padding:18px 22px;max-width:1500px;margin:auto}
+.filters{display:flex;gap:10px;flex-wrap:wrap;align-items:end;background:var(--panel);border:1px solid var(--line);padding:12px 14px;border-radius:10px;margin-bottom:14px}
+.filters label{display:flex;flex-direction:column;font-size:11px;color:var(--muted);gap:3px;text-transform:uppercase;letter-spacing:.5px}
+select,input[type=date],input[type=text]{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:7px 9px;font-size:13px;min-width:120px}
+input[type=text]{min-width:190px}
+button{background:var(--accent);color:#04121f;border:0;border-radius:6px;padding:8px 14px;font-weight:700;cursor:pointer}
+button.ghost{background:transparent;color:var(--accent);border:1px solid var(--line)}
+.chk{flex-direction:row!important;align-items:center;gap:6px!important;text-transform:none!important;font-size:13px!important;color:var(--text)!important}
+.grid{display:grid;gap:14px}
+.kpis{grid-template-columns:repeat(auto-fit,minmax(160px,1fr));margin-bottom:14px}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.kpi .v{font-size:26px;font-weight:700;margin-top:2px}.kpi .l{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.6px}
+.row2{grid-template-columns:minmax(300px,1fr) minmax(300px,2fr);margin-bottom:14px}
+.row3{grid-template-columns:repeat(auto-fit,minmax(300px,1fr));margin-bottom:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;min-width:0}
+.card h2{margin:0 0 10px;font-size:13px;text-transform:uppercase;letter-spacing:.7px;color:var(--muted)}
+.chartbox{position:relative;height:280px}
+.alerts{max-height:330px;overflow:auto;display:flex;flex-direction:column;gap:8px}
+.alert{border-left:4px solid var(--grey);background:var(--panel2);padding:8px 10px;border-radius:6px}
+.alert.HIGH{border-color:var(--red)}.alert.MEDIUM{border-color:var(--amber)}.alert.LOW{border-color:var(--accent)}
+.alert .t{font-weight:600}.alert .m{color:var(--muted);font-size:12px;margin-top:2px}
+.sev{font-size:10px;font-weight:800;padding:1px 6px;border-radius:4px;margin-right:6px;color:#000}
+.sev.HIGH{background:var(--red)}.sev.MEDIUM{background:var(--amber)}.sev.LOW{background:var(--accent)}
+.tablewrap{overflow:auto;max-height:430px}
+table{border-collapse:collapse;width:100%;font-size:12.5px}
+th{position:sticky;top:0;background:#1b2838;text-align:left;padding:7px 9px;color:var(--muted);font-weight:600}
+td{padding:7px 9px;border-top:1px solid var(--line);vertical-align:top}
+.chip{padding:1px 8px;border-radius:99px;font-size:11px;font-weight:700}
+.negative{background:#4b1717;color:#ff9b9b}.positive{background:#12391f;color:#8ef0ae}.neutral{background:#26303c;color:#b6c3d3}
+.score{font-weight:700}.flag{color:var(--red);font-weight:700}
+.note{color:var(--muted);font-size:12px;margin-top:18px;padding:10px 14px;border:1px dashed var(--line);border-radius:8px}
+.empty{color:var(--muted);padding:12px}
+@media(max-width:900px){.row2{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <h1>OSINT MONITOR<small>Public social-media analysis · military &amp; security incidents · India &amp; adversary countries</small></h1>
+  <div><span id="mode" class="badge demo">LOADING</span> <span id="gen" style="color:var(--muted);font-size:12px;margin-left:8px"></span></div>
+</header>
+<main>
+  <div class="filters">
+    <label>Country<select id="f-country"></select></label>
+    <label>Language<select id="f-lang"></select></label>
+    <label>Sentiment<select id="f-label"><option value="all">All</option><option>negative</option><option>neutral</option><option>positive</option></select></label>
+    <label>From<input type="date" id="f-start"></label>
+    <label>To<input type="date" id="f-end"></label>
+    <label>Keyword watch<input type="text" id="f-q" placeholder="e.g. border, attack, ceasefire"></label>
+    <label class="chk"><input type="checkbox" id="f-flagged"> Flagged only</label>
+    <button id="apply">Apply</button><button class="ghost" id="reset">Reset</button>
+    <a id="export" href="#"><button class="ghost" type="button">Export CSV</button></a>
+  </div>
+
+  <div class="grid kpis" id="kpis"></div>
+
+  <div class="grid row2">
+    <div class="card"><h2>Alert feed (priority order)</h2><div class="alerts" id="alerts"></div></div>
+    <div class="card"><h2>Sentiment trend by country (−1 negative · +1 positive)</h2><div class="chartbox"><canvas id="c-timeline"></canvas></div></div>
+  </div>
+
+  <div class="grid row3">
+    <div class="card"><h2>Post volume &amp; flagged activity</h2><div class="chartbox"><canvas id="c-volume"></canvas></div></div>
+    <div class="card"><h2>Emerging narratives</h2><div class="chartbox"><canvas id="c-narr"></canvas></div></div>
+    <div class="card"><h2>Overall sentiment</h2><div class="chartbox"><canvas id="c-dist"></canvas></div></div>
+  </div>
+
+  <div class="grid row3">
+    <div class="card" style="grid-column:1/-1"><h2>Coordinated-campaign clusters</h2><div class="tablewrap" id="coord"></div></div>
+  </div>
+
+  <div class="grid row3">
+    <div class="card" style="grid-column:1/-1"><h2 id="ptitle">Posts</h2><div class="tablewrap" id="posts"></div></div>
+  </div>
+  <div class="grid row3" id="statebox" style="display:none">
+    <div class="card" style="grid-column:1/-1"><h2>Indian states – discussion volume &amp; sentiment</h2><div class="tablewrap" id="states"></div></div>
+  </div>
+
+  <div class="note"><b>Analyst note:</b> scores and flags are automated indicators for triage, not verdicts. Sentiment is model-based and may misread sarcasm and code-mixed text (e.g. Hinglish). "Coordinated" means near-identical text from many accounts in a short burst; it does not prove who is behind it. Verify findings against primary sources before acting. Only public data is analysed; no individual profiling.</div>
+</main>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const COL = {negative:"#ef4444", neutral:"#94a3b8", positive:"#22c55e"};
+const PAL = ["#4aa3ff","#f59e0b","#22c55e","#c084fc","#f472b6","#2dd4bf"];
+Chart.defaults.color = "#8da0b6"; Chart.defaults.borderColor = "#243245"; Chart.defaults.font.family = "Segoe UI, Arial";
+const charts = {};
+function mk(id, cfg){ if(charts[id]) charts[id].destroy(); charts[id] = new Chart($("#"+id), cfg); }
+
+function params(){
+  const p = new URLSearchParams();
+  const m = {country:"#f-country", lang:"#f-lang", label:"#f-label", start:"#f-start", end:"#f-end", q:"#f-q"};
+  for(const k in m){ const v = $(m[k]).value.trim(); if(v && v !== "all") p.set(k, v); }
+  if($("#f-flagged").checked) p.set("flagged","1");
+  return p;
+}
+async function get(path){ const r = await fetch(path + "?" + params()); return r.json(); }
+
+function fillSelect(id, items){ $(id).innerHTML = '<option value="all">All</option>' + items.map(i => `<option>${esc(i)}</option>`).join(""); }
+const sentChip = l => `<span class="chip ${esc(l)}">${esc(l)}</span>`;
+
+function renderKpis(k){
+  const cells = [["Posts analysed", k.posts], ["Unique accounts", k.authors],
+    ["Mean sentiment", k.mean_sentiment], ["% negative", k.pct_negative + "%"],
+    ["Flagged misinformation", k.flagged], ["Coordinated posts", k.coordinated]];
+  $("#kpis").innerHTML = cells.map(([l,v],i) => `<div class="kpi"><div class="l">${l}</div><div class="v" style="${(i==4||i==5)&&v>0?'color:var(--red)':''}">${esc(v)}</div></div>`).join("");
+}
+function renderAlerts(a){
+  $("#alerts").innerHTML = a.length ? a.map(x => `<div class="alert ${esc(x.severity)}"><div class="t"><span class="sev ${esc(x.severity)}">${esc(x.severity)}</span>${esc(x.type)} – ${esc(x.title)}</div><div class="m">${esc(x.time)} · ${esc(x.detail)}</div></div>`).join("") : '<div class="empty">No alerts.</div>';
+}
+function renderCharts(d){
+  mk("c-timeline", {type:"line", data:{labels:d.timeline.labels, datasets:d.timeline.series.map((s,i)=>({label:s.name, data:s.data, borderColor:PAL[i%6], backgroundColor:PAL[i%6], tension:.25, spanGaps:true, pointRadius:3}))},
+    options:{maintainAspectRatio:false, scales:{y:{min:-1, max:1}}, plugins:{legend:{position:"bottom"}}}});
+  mk("c-volume", {data:{labels:d.volume.labels, datasets:[{type:"bar", label:"All posts", data:d.volume.total, backgroundColor:"#2b4a6b"},
+      {type:"line", label:"Flagged / coordinated", data:d.volume.flagged, borderColor:"#ef4444", backgroundColor:"#ef4444", pointRadius:2}]},
+    options:{maintainAspectRatio:false, plugins:{legend:{position:"bottom"}}, scales:{x:{ticks:{maxTicksLimit:8}}}}});
+  const n = d.narratives.slice(0,8);
+  mk("c-narr", {type:"bar", data:{labels:n.map(x=>x.label), datasets:[{data:n.map(x=>x.posts), backgroundColor:n.map(x=>x.sentiment<-0.2?COL.negative:x.sentiment>0.2?COL.positive:COL.neutral)}]},
+    options:{indexAxis:"y", maintainAspectRatio:false, plugins:{legend:{display:false}, tooltip:{callbacks:{afterLabel:c=>"mean sentiment " + n[c.dataIndex].sentiment}}}}});
+  const L = ["negative","neutral","positive"];
+  mk("c-dist", {type:"doughnut", data:{labels:L, datasets:[{data:L.map(l=>d.labels[l]||0), backgroundColor:L.map(l=>COL[l]), borderWidth:0}]},
+    options:{maintainAspectRatio:false, plugins:{legend:{position:"bottom"}}}});
+}
+function renderCoord(c){
+  if(!c.length){ $("#coord").innerHTML = '<div class="empty">No coordinated clusters detected.</div>'; return; }
+  $("#coord").innerHTML = "<table><tr><th>#</th><th>First seen</th><th>Accounts</th><th>Posts</th><th>Span (min)</th><th>Median acct age</th><th>Shares</th><th>Sample text</th><th>Accounts (first 8)</th></tr>" +
+    c.map(r => `<tr><td>${esc(r.cluster)}</td><td>${esc(r.first_seen)}</td><td class="flag">${esc(r.distinct_authors)}</td><td>${esc(r.posts)}</td><td>${esc(r.span_minutes)}</td><td>${r.median_account_age_days>=0?esc(r.median_account_age_days)+" d":"n/a"}</td><td>${esc(r.total_shares)}</td><td>${esc(r.sample)}</td><td>${esc((r.authors||[]).slice(0,8).join(", "))}</td></tr>`).join("") + "</table>";
+}
+async function renderPosts(){
+  const rows = await get("/api/posts");
+  $("#ptitle").textContent = $("#f-flagged").checked ? "Flagged posts (highest score first)" : "Latest posts matching filters";
+  $("#posts").innerHTML = rows.length ? "<table><tr><th>Time</th><th>Account</th><th>Country</th><th>Lang</th><th>Sentiment</th><th>Risk</th><th>Text</th></tr>" +
+    rows.map(r => `<tr><td>${esc((r.timestamp||"").replace("T"," ").slice(0,16))}</td><td>${esc(r.author)}</td><td>${esc(r.country)}</td><td>${esc(r.lang)}</td><td>${sentChip(r.label)}</td>
+    <td class="score ${r.misinfo_score>=0.5?'flag':''}">${esc(r.misinfo_score)}${r.coordinated?' <span class="flag">· COORD</span>':''}</td><td>${esc(r.text)}</td></tr>`).join("") + "</table>" : '<div class="empty">No posts match these filters.</div>';
+}
+function renderStates(s){
+  $("#statebox").style.display = s.length ? "" : "none";
+  $("#states").innerHTML = "<table><tr><th>State</th><th>Posts</th><th>Mean sentiment</th></tr>" + s.map(r => `<tr><td>${esc(r.state)}</td><td>${esc(r.posts)}</td><td>${esc(r.sentiment)}</td></tr>`).join("") + "</table>";
+}
+async function refresh(){
+  $("#export").href = "/api/export.csv?" + params();
+  const d = await get("/api/dashboard");
+  renderKpis(d.kpis); renderAlerts(d.alerts); renderCharts(d); renderCoord(d.coordination); renderStates(d.states || []);
+  await renderPosts();
+}
+async function init(){
+  const m = await (await fetch("/api/meta")).json();
+  if(m.error){ document.body.innerHTML = "<p style='padding:30px'>" + esc(m.error) + "</p>"; return; }
+  fillSelect("#f-country", m.countries); fillSelect("#f-lang", m.langs);
+  $("#f-start").min = $("#f-end").min = m.start; $("#f-start").max = $("#f-end").max = m.end;
+  const b = $("#mode"); b.textContent = m.synthetic ? "DEMO DATA (synthetic)" : "REAL DATA"; b.className = "badge " + (m.synthetic ? "demo" : "live");
+  $("#gen").textContent = "Data window " + m.start + " → " + m.end + " · " + m.total + " posts · processed " + m.generated_at;
+  $("#apply").onclick = refresh;
+  $("#f-q").addEventListener("keydown", e => { if(e.key === "Enter") refresh(); });
+  ["#f-country","#f-lang","#f-label","#f-flagged"].forEach(s => $(s).addEventListener("change", refresh));
+  $("#reset").onclick = () => { ["#f-country","#f-lang","#f-label"].forEach(s => $(s).value = "all"); ["#f-start","#f-end","#f-q"].forEach(s => $(s).value = ""); $("#f-flagged").checked = false; refresh(); };
+  refresh();
+}
+init();
+</script>
+</body>
+</html>
