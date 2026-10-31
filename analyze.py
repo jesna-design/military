@@ -6,7 +6,6 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 from sklearn.metrics.pairwise import linear_kernel
 
-# ---------- preprocessing / language ----------
 TOK = re.compile(r"[^\s.,!?;:#\"'।،()]+")
 URL = re.compile(r"https?://\S+|@\w+")
 
@@ -22,7 +21,6 @@ def detect_script(t):
     if re.search(r"[\u4E00-\u9FFF]", t): return "zh"
     return "en"
 
-# ---------- sentiment ----------
 POS = {"proud", "salute", "brave", "success", "peace", "safe", "hero", "positive", "strong", "restored", "forward",
        "गर्व", "सलाम", "शांति", "सफल", "امن", "کامیاب"}
 NEG = {"attack", "terror", "killed", "fear", "condemned", "violation", "scared", "shameful", "failure", "war", "angry",
@@ -55,7 +53,6 @@ def add_sentiment(df, use_transformer=False):
     df["label"] = pd.cut(df["sentiment"], [-1.01, -0.2, 0.2, 1.01], labels=["negative", "neutral", "positive"])
     return df
 
-# ---------- narratives ----------
 def find_narratives(df, kmin=3, kmax=7):
     vec = TfidfVectorizer(token_pattern=r"[^\s.,!?;:#\"'।،()]{2,}", min_df=3, max_df=0.6, ngram_range=(1, 2))
     X = vec.fit_transform(df["clean"])
@@ -75,7 +72,6 @@ def find_narratives(df, kmin=3, kmax=7):
                          example=sub.text.iloc[0][:110]))
     return df, pd.DataFrame(rows).sort_values("posts", ascending=False)
 
-# ---------- misinformation ----------
 KNOWN_FALSE = ["army base destroyed 500 soldiers killed media hiding truth",
                "ceasefire declared fake news viral message forwarded",
                "city captured by enemy troops viral video"]
@@ -93,7 +89,6 @@ def score_misinformation(df, coord_authors=frozenset()):
     df["misinfo_flag"] = df["misinfo_score"] >= 0.5
     return df
 
-# ---------- coordinated inauthentic behaviour ----------
 def detect_coordination(df, sim_thr=0.7, win_min=90, min_authors=4, max_span_min=180, block=500):
     """Near-duplicate text from DIFFERENT accounts within win_min minutes. Time-windowed blocks => scales to 100k+ posts."""
     from scipy.sparse import coo_matrix
@@ -127,7 +122,6 @@ def detect_coordination(df, sim_thr=0.7, win_min=90, min_authors=4, max_span_min
                             authors=sorted(sub.author.unique()), sample=sub.text.iloc[0][:120]))
     return pd.DataFrame(out)
 
-# ---------- trends / shifts ----------
 def sentiment_shifts(df, drop_thr=0.2):
     daily = df.assign(day=df.timestamp.dt.date).groupby(["day", "country"]).agg(
         posts=("post_id", "count"), sentiment=("sentiment", "mean")).reset_index()
