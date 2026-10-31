@@ -2,4 +2,6 @@ pandas
 scikit-learn
 matplotlib
 requests
-# optional (better multilingual sentiment): transformers torch
+scipy
+flask
+gunicorn
