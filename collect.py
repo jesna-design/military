@@ -1,6 +1,4 @@
-"""Collectors. All return a DataFrame with the common schema:
-post_id, author, timestamp, country, platform, text, likes, shares, account_age_days, has_source_link
-Only PUBLIC content is collected, respecting each platform's ToS / API terms."""
+
 import pandas as pd
 
 SCHEMA = ["post_id", "author", "timestamp", "country", "platform", "text", "likes", "shares",
